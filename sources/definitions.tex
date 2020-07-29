@@ -1,0 +1,27 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%		Exemple		%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% glossary entry : defines the identifier in the glossary table (1rst arg), 
+% and the description in second arg.
+\newglossaryentry{id}{
+name={ID}, %what appear in text
+description={\emph{Identifier} : Identifiant}, %what appear in glossary
+first={ID (\emph{Identifier} : Identifiant)}} %what appear the first time in text
+\newcommand{\id}{\gls{id}} % shortcut pour the glossary entry. Simply coll \id in the text
+\newcommand{\ID}{ID} % to put the text without using the glossary shortcut.
+
+
+\newglossaryentry{sg}{
+name={SG}, %what appear in text
+description={Société Générale}, %what appear in glossary
+first={SG ( Société Générale)}} %what appear the first time in text
+\newcommand{\sg}{\gls{sg}} % shortcut pour the glossary entry. Simply coll \id in the text
+
+\newglossaryentry{sgbf}{
+name={SGBF}, %what appear in text
+description={Société Générale Burkina Faso}, %what appear in glossary
+first={SGBF ( Société Générale Burkina Faso)}} %what appear the first time in text
+\newcommand{\sgbf}{\gls{sgbf}} % shortcut pour the glossary entry. Simply coll \id in the text
+

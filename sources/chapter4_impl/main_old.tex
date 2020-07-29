@@ -1,0 +1,138 @@
+\chapter{Approche et Implémentation}
+
+\section*{Introduction}
+Dans ce chapitre nous présenterons premièrement les données qui ont été utilisés
+pour entrainer notre modèle. Ensuite, nous présenterons les résultats obtenus à
+la suite de l'utilisation des algorithmes sur nos données. Enfin nous 
+présenterons les perspectives envisagées.
+Quelle approche est la mieux adaptée à nos besoins? Choisir un algorithme 
+d’apprentissage supervisé ou non supervisé dépend habituellement de 
+facteurs liés à la structure et au volume de nos données, et le cas 
+d’utilisation auquel nous voulons l’appliquer.
+
+
+\section{Approche}
+
+L'objectif de notre travail est de prouver qu'il est possible de mettre en place un
+système permettant de donner l'état d'un dossier à la réception de celui-ci.
+
+Pour cela, nous considérons un dossier comme l'ensemble des informations des 
+intervenants et de l'opération elle-même. Ces informations sont relevées 
+directement sur le dossier physique. L'idée est de prendre le dossier
+et de récupérer tous les éléments d'analyse qui sont présents sur le documents.
+Notre dataset initiale nous a été extrait des données du CBS. Il comportait
+initialement 10000 lignes.
+
+Nous allons nettoyer nos données en écartant les anomalies, tout en restant
+vigilant sur ce que contiennent les données mises de côté. La notion d'anomalie
+dans les transferts à l'étranger est très délicate. En effet, ce n'est parce que
+M. X a toujours efectué des transferts de 1000 Euros vers un pays A que demain
+il n'enverra pas 5 Euros vers le même pays pour le même motif.
+
+La détection d'anomalie dans notre cas n'a pas fourni de résultats satisfaisants
+(ils éliminent une énorme partie des données d'entrée , qui ne sont pas 
+forcément des anomalie)
+
+Après l'analyse de la conformité bancaire et de son application sur les transferts
+à l'étranger, nous avons donc du changer de méthode. L'étude de notre sujet et
+des contraintes qui nous sont imposées nous permet de faire un apprentissage
+supervisé sur nos données.
+
+Pour une meilleure prédicion, nous posons comme hypothèse de départ que tous
+dossiers qui passent par notre modèle est considérés comme complet. Cette
+hypothèse nous permet de nous focaliser sur les autres aspects de la conformité.
+
+\section{Choix de la méthode}
+Pour notre problème, la méthode qui sera choisie devra nécessairement remplir
+ces conditions :
+\begin{itemize}
+  \item Fonctionner sur un dataset qui qui dispose de très peu de données
+  \item Ne pas fonctionner comme une boite noire pour permettre la déduction de
+    règles
+  \item Acceter des caractéristiques discrètes et continues
+  \item Pouvoir prédire un résultat malgré le bruit.
+\end{itemize}
+
+Face à ces contraintes notre choix s'est tournée vers les arbres de décisions.
+
+\section{Réalisation}
+
+\subsection{Le jeu de données}
+Le jeu de données que nous avons utilisé pour notre modèle a été obtenue à
+partir des dossiers physiques mis à notre disposition au niveau de la Société
+Générale Burkina Faso. Sur chacun de ces dossier nous récupérons:
+\begin{itemize}
+  \item Le nom du donneur d'ordre
+  \item L'activité du donneur d'ordre
+  \item Le pays du donneur d'ordre
+  \item Le nom du beneficiaire de l'ordre
+  \item L'activité du bénéficiaire de l'ordre
+  \item le pays du bénéficiaire de l'ordre
+  \item La banque du bénéficiare
+  \item Le pays de la banque du bénficiaire
+  \item Le motif de l'opération
+  \item L'objet de l'opération
+  \item Le montant de l'opération
+  \item La dévise de l'opération
+\end{itemize}
+La majeure partie de ces informations est disponible sur le CBS qui consitue
+notre principal source de données. D'autres par contre comme l'activité du
+bénéficiaire, la banque du bénéficiaire ne sont pas disponibles sur cette base
+de données. Pour ces informations, indispensable dans l'analyse d'un dossier de
+transfert, nous avons effectué des recherches sur les moteurs de recherches afin
+de compléter notre dataset.
+Les informations que nous utilisons sont confidentielles et ne peuvent quitter 
+le réseau de la SG.
+Certaines informations telles que les identités du donneur et du 
+bénéficiaire de l'ordre, les pays du donneur et du bénéficiaire, la 
+banque du bénéficiaire doivent passer sur des plateformes de vérifications
+de sanctions comme force-online. Ces plateformes permettrons de savoir si une
+des entités cités ci-dessus est sous sanctions et de quel type de sanctions il
+s'agit. Le résultat des différents contrôle entre dans le processus de 
+classification d'un dossier de transfert.
+
+En conséquence, les caractéristiques de notre dataset seront:
+
+\begin{itemize}
+  \item Le nom du donneur d'ordre
+  \item Le résultat du controle de l'identité du donneur
+  \item L'activité du donneur d'ordre
+  \item Le pays du donneur d'ordre
+  \item Le résultat du contrôle du pays du donneur
+  \item Le nom du beneficiaire de l'ordre
+  \item Le résultat du contrôlede l'identité du bénéficiaire
+  \item L'activité du bénéficiaire de l'ordre
+  \item le pays du bénéficiaire de l'ordre
+  \item Le résultat du contrôle du pays du bénéficiaire
+  \item La banque du bénéficiare
+  \item Le pays de la banque du bénficiaire
+  \item Le motif de l'opération
+  \item L'objet de l'opération
+  \item Le montant de l'opération
+  \item La dévise de l'opération
+\end{itemize}
+Apres analyse de notre dataset, il ressort que sur la période considéré, nous
+avons autant de bénéficiaire que de ligne de données. Ce constat est
+pratiquement le même au niveau des identités des donneurs d'ordre. Pour cela et
+en vue d'éviter un sur-apprentissage, nous avons opté d'ignorer la colon
+Notre jeu de données est constitué de huit cent cinquante(850) dossiers. 
+
+\subsection{Les outils}
+Nous allons présenter les outils qui nous ont permis de mettreen place l'outil
+que nous avons proposé.
+
+Le langage Javascript: 
+
+Le langage Java
+
+Nous utilisons le langage Python et de nombreuses bibliothèques python pour 
+les codes qui serviront à l’implémentation de notre modèle. 
+
+\section{Le système de classification}
+  \subsection{Decision Tree}
+
+  \section{Résultats}
+
+
+
+ê

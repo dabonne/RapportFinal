@@ -1,0 +1,244 @@
+
+
+%% packages utilises
+%%---------------------
+%\usepackage{etex}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english, french]{babel}
+\usepackage[french]{translator}
+\usepackage{frbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{these}
+
+\usepackage[left=3.5cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+\usepackage{ulem}
+%\normalem
+%\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{textcase}
+\usepackage{floatflt}
+\usepackage{graphicx}
+\usepackage{epstopdf}		% .eps to .pdf
+\usepackage{moreverb} %% pour le verbatim en boite
+\usepackage{multirow} %% pour regrouper un texte sur plusieurs lignes dans une table
+\usepackage{url} %% pour citer les url par \url
+\urlstyle{sf}
+\usepackage[all]{xy} %% pour la barre au dessus des symboles
+%\usepackage{shorttoc} %% pour plusieurs tables des matières par la commande \shorttableofcontents{Titre}{profondeur}.
+\usepackage{textcomp} %% pour le symbol pour mille par \textperthousand.
+
+%\usepackage[right]{eurosym}
+
+\usepackage{latexsym}
+% 
+\usepackage{setspace} %allow to change line spacing
+\usepackage{fancyhdr} %header / footer
+  \setlength{\headheight}{36pt}
+\usepackage[ Conny ]{ fncychap }
+\usepackage{enumitem} %beautiful enumerations ... no beamer
+\usepackage{subfig} %allow to split figure (article / book / report)
+\usepackage{caption} %
+\usepackage{color} %use color
+\usepackage{epsfig,amsfonts} %math mode
+\usepackage{array,colortbl} %use array / tabular and apply color / style on them
+\usepackage{pstricks} %draw with latex
+%\usepackage{tikz}
+\usepackage{listings} %source code with avec \being{lstlistgin}
+
+\usepackage{stmaryrd}
+%\usepackage{tocbibind}
+%\usepackage[nottoc]{tocbibind}
+\usepackage{pdfpages}
+\usepackage{chngpage}
+\usepackage{multicol}
+%\usepackage[fit]{truncate}
+\pagestyle{fancy}
+\fancyhead{} %on efface l'entête
+
+\fancyhead[L]{\includegraphics[width=1.0cm]{images/esi.jpeg}}
+\fancyhead[C]{\scriptsize\textsc{Segmentation Géométrique et Photométrique d’images Acquises par Drones}}
+\fancyhead[R]{\includegraphics[width=1cm]{images/liris.png}}
+%\fancyhead[LE,RO]{\nouppercase{\truncate{0.5\headwidth}{\rightmark}}}
+%\fancyhead[LO,RE]{\nouppercase{\truncate{0.5\headwidth}{\leftmark}}}
+\fancyfoot{}
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[L]{\scriptsize\textbf{DABONNE Hoda}}
+\fancyfoot[C]{\includegraphics[width=1cm]{images/Technidrone.jpg}}
+\fancyfoot[R]{\scriptsize\textit\thepage}
+
+%%%%%%%%%%%%%%%%%%%style front%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+        \fancypagestyle{front}{%
+                \fancyhf{}%on vide l'en-tête
+                 \fancyfoot[C]{}
+                \fancyfoot[R]{\scriptsize \textit\thepage}%
+                \fancyfoot[L]{\scriptsize DABONNE Hoda}
+
+                \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
+                \renewcommand{\footrulewidth}{1pt}%trait horizontal pour le pied de page
+                }
+%%%%%%%%%%%%%%%%%%%style main%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \fancypagestyle{*}{%
+                \fancyhf{}
+                %\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ ##1}{}}% redéfinition pour avoir ici les titres des chapitres des sections en minuscules
+                \renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1}}
+                \fancyhead[c]{\scriptsize\textsc{Segmentation Géométrique et Photométrique d’images Acquises par Drones}}
+                \fancyhead[L]{\includegraphics[width=1.2cm]{images/esi.jpeg}}%
+				\fancyhead[R]{\includegraphics[width=1cm]{images/liris.png}}
+				\fancyhead[R]{\includegraphics[width=1cm]{images/Technidrone.jpg}}
+
+                \fancyfoot[C]{}
+                \fancyfoot[R]{\scriptsize \textit\thepage}%
+                \fancyfoot[L]{\scriptsize DABONNE HODA}
+                }
+%%%%%%%%%%%%%%%%%%%style back%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+        \fancypagestyle{back}{%
+                \fancyhf{}%on vide l'en-tête
+                \fancyfoot[C]{page \thepage}%
+                \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
+                \renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour le pied de pages
+                }
+
+\usepackage[Algorithme]{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{hyperref}
+\usepackage[toc,nonumberlist]{glossaries}
+\usepackage{wrapfig}
+
+\usepackage[resetlabels]{multibib}
+\newcites{publis}{Publications personnelles}
+
+%% choix des profondeurs de section pour la table des matières
+%% 2= subsection, 3=subsubsection
+\setcounter{secnumdepth}{2}  %% Avec un numero.
+\setcounter{tocdepth}{2}     %% Visibles dans la table des matieres
+
+\makeglossary
+\def\underscore{\char`\_}
+
+\usepackage{nomencl}
+%\renewcommand{\}{Liste des notations}
+%\renewcommand*{\pagedeclaration}[1]{\unskip\dotfill\hyperpage{#1}}
+\makenomenclature
+
+\usepackage{makeidx}
+\makeindex
+
+
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,1}
+\definecolor{colString}{rgb}{0.6,0.1,0.1}
+
+\definecolor{c1}{RGB}{219,144,71}
+\definecolor{c2}{RGB}{100,212,78}
+\definecolor{c3}{RGB}{255,111,111}
+\definecolor{c4}{RGB}{111,139,255}
+
+\definecolor{gris}{gray}{0.45}
+
+\lstset{%configuration de listings
+	float=hbp,%
+	language=C,
+	basicstyle=\ttfamily\small, %
+	identifierstyle=\color{colIdentifier}, %
+	keywordstyle=\color{colKeys}, %
+	stringstyle=\color{colString}, %
+	commentstyle=\color{colComments}, %
+	columns=flexible, %
+	tabsize=3, %
+	%frame=trBL, %
+	extendedchars=true, %
+	%showspaces=false, %
+	showstringspaces=false, %
+	numbers=none, %
+	breaklines=true, %
+	breakautoindent=true, %
+	captionpos=b,%
+	xrightmargin=0cm, %
+	xleftmargin=0cm,
+	mathescape=true
+}
+
+
+\frenchspacing
+
+\newgeometry{hmargin={0pt,0pt},vmargin={0pt,0pt}}
+\savegeometry{include}
+
+\newgeometry{vmargin={4.1cm,3.6cm},hmargin={3cm,2cm},twoside}
+\setstretch{1.1}
+\savegeometry{normalpreprint}
+
+\newgeometry{vmargin={4.1cm,3.6cm},hmargin={2cm,3cm},twoside}
+\setstretch{1.1}
+\savegeometry{normalpreprintinverse}
+
+\newgeometry{vmargin={4.1cm,3.6cm},hmargin={2.5cm,2.5cm}}
+\setstretch{1.1}
+\savegeometry{normaldigital}
+
+\ifthenelse{\equal{\preprint}{YES}}
+{
+\loadgeometry{normalpreprint}
+\savegeometry{normal}
+\loadgeometry{normalpreprintinverse}
+\savegeometry{normalinverse}
+}
+{
+\loadgeometry{normaldigital}
+\savegeometry{normal}
+\savegeometry{normalinverse}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	SubFloat environment for lstlisting inside subloat		%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\captionsetup[subfloat]{
+}
+
+\makeatletter
+\newbox\sf@box
+\newenvironment{SubFloat}[2][]%
+	{	\def\sf@one{#1}%
+		\def\sf@two{#2}%
+		\setbox\sf@box\hbox
+			\bgroup}%
+	{	\egroup
+	\ifx\@empty\sf@two\@empty\relax
+		\def\sf@two{\@empty}
+	\fi
+	\ifx\@empty\sf@one\@empty\relax
+		\subfloat[\sf@two]{\box\sf@box}%
+	\else
+		\subfloat[\sf@one][\sf@two]{\box\sf@box}%
+	\fi}
+\makeatother
+
+\usepackage{bibentry}
+\nobibliography*
+
+%% macro/racourcis por les symboles et commandes usuelles
+\input{sources/macro.tex}
+\input{sources/definitions.tex}
+
+\input{sources/infos_titlepage.tex}
+
+\title{\TITRE}
+
+\author{\AUTp \AUTn}
+
+\hypersetup{
+	pdfauthor={{\AUTp} {\AUTn}},
+	pdftitle={{\TITRE}},
+	pdfsubject={\MENTION},
+	pdfkeywords={\KEYWORDS},
+	hidelinks
+}

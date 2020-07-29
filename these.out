@@ -1,0 +1,75 @@
+\BOOKMARK [0][-]{chapter*.7}{Liste des notations}{}% 1
+\BOOKMARK [0][-]{chapter*.8}{Introduction g\351n\351rale}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Contexte g\351n\351ral de l'\351tude}{}% 3
+\BOOKMARK [1][-]{section.1.1}{La structure d'accueil}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Pr\351sentation et Histoire}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{Organisation}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Pr\351sentation du sujet}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{Libell\351 du sujet}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{Contexte du sujet}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.3}{Int\351r\352t du sujet}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.4}{Probl\351matique du sujet}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.5}{Objectifs}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{Concepts cl\351s du sujet}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{Vocabulaire}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.2}{ Les dif\351rentes op\351rations \340 l'\351tranger}{section.1.3}% 15
+\BOOKMARK [0][-]{chapter.2}{Apprentissage automatique et aide \340 la d\351cision}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Vocabulaire du machine learning}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.1.1}{Etiquettes}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.2}{Caract\351ristiques}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.3}{Exemples}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.4}{Mod\350les}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Les objectifs et m\351thodes du Machine learning}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Les objectifs du machine learning}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{Les m\351thodes d'aprentissage}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Les diff\351rents type de classifieurs}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.3.1}{M\351thode des K plus proche voisins \(KNN\)}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{Les r\351seaux de neurones}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.3}{Support Vector Machine \(SVM\)}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.4}{Les arbres de d\351cisions}{section.2.3}% 29
+\BOOKMARK [1][-]{section.2.4}{Comparaison des algorithmes de classification}{chapter.2}% 30
+\BOOKMARK [1][-]{section.2.5}{Les arbres de d\351cisions}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.5.1}{Structure d'un arbre de d\351cision}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.2}{Optimisation des noeuds}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.3}{Algorithmes d\220induction d\220arbres de d\351cision}{section.2.5}% 34
+\BOOKMARK [1][-]{section.2.6}{Les for\352ts al\351atoires}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.6.1}{Fonctionnement des for\352ts al\351atoires}{section.2.6}% 36
+\BOOKMARK [2][-]{subsection.2.6.2}{Les hyperparam\350tres dans les for\352ts al\351atoires}{section.2.6}% 37
+\BOOKMARK [2][-]{subsection.2.6.3}{Les avantages et les inconv\351nients du mod\350le des for\352ts al\351atoire}{section.2.6}% 38
+\BOOKMARK [0][-]{chapter.3}{La conformit\351 dans le secteur bancaire}{}% 39
+\BOOKMARK [1][-]{section.3.1}{Etude de l'existant}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.1.1}{Analyse des dossiers de transfert \340 la SGBF}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.2}{Plateformes existantes dans le milieu bancaire}{section.3.1}% 42
+\BOOKMARK [1][-]{section.3.2}{La conformit\351 ou compliance}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{D\351finition}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{R\364le de la conformit\351 dans le domaine bancaire}{section.3.2}% 45
+\BOOKMARK [1][-]{section.3.3}{Pr\351sentation du cadre r\350glementaire}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.3.1}{ La r\350glementation de change}{section.3.3}% 47
+\BOOKMARK [2][-]{subsection.3.3.2}{Les composantes d'un programme AML}{section.3.3}% 48
+\BOOKMARK [1][-]{section.3.4}{Machine Learning et mise en oeuvre d'un programme de conformit\351}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.4.1}{Le Machine Learning pour la simplification des proc\351dures KYC}{section.3.4}% 50
+\BOOKMARK [2][-]{subsection.3.4.2}{Le Machine Learning, un outil essentiel \340 la d\351tection des transactions suspectes}{section.3.4}% 51
+\BOOKMARK [0][-]{chapter.4}{Approche et Impl\351mentation}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Approche}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{R\351alisation}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.2.1}{Le jeu de donn\351es}{section.4.2}% 55
+\BOOKMARK [2][-]{subsection.4.2.2}{Pr\351traitrement des donn\351es}{section.4.2}% 56
+\BOOKMARK [2][-]{subsection.4.2.3}{Validation crois\351e et stratification des donn\351es}{section.4.2}% 57
+\BOOKMARK [2][-]{subsection.4.2.4}{Les outils}{section.4.2}% 58
+\BOOKMARK [1][-]{section.4.3}{R\351sultats}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.3.1}{R\351sultats du mod\350le}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.2}{Impl\351mentation de la plateforme web}{section.4.3}% 61
+\BOOKMARK [1][-]{section.4.4}{Interpr\351tation des r\351sultats du mod\350le de machine learning}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.4.1}{Limites et difficult\351es}{section.4.4}% 63
+\BOOKMARK [2][-]{subsection.4.4.2}{Analyse des r\351sultats}{section.4.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.3}{Perspectives}{section.4.4}% 65
+\BOOKMARK [0][-]{chapter*.110}{Conclusion g\351n\351rale}{}% 66
+\BOOKMARK [0][-]{appendix.A}{Annexe : Dossiers de transferts}{}% 67
+\BOOKMARK [1][-]{section.A.1}{Pour un r\350glement de facture d'achat}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.2}{Pour le remboursement d'un emprunt}{appendix.A}% 69
+\BOOKMARK [1][-]{section.A.3}{Pour une prestation de service}{appendix.A}% 70
+\BOOKMARK [1][-]{section.A.4}{Pour des frais de scolarit\351 ou un soutien familial}{appendix.A}% 71
+\BOOKMARK [1][-]{section.A.5}{Pour le virement des salaires des personnes expatri\351s}{appendix.A}% 72
+\BOOKMARK [0][-]{appendix.B}{Analyse et Conception de la plateforme Web}{}% 73
+\BOOKMARK [1][-]{section.B.1}{Analyse des besoins}{appendix.B}% 74
+\BOOKMARK [1][-]{section.B.2}{Conception}{appendix.B}% 75

@@ -1,0 +1,42 @@
+\section{Comparaison des algorithmes de classification}
+
+Le choix de l'algorithme optimal pour un problème donnée dépend de sa vitesse
+d'entrainement et de prédiction, de la précision de ces prévisions, de la
+quantité de données nécessaires à l'entrainement, de la facilité à la mettre en
+oeuvre, et de la capacité à expliquer le résultat de la prédiction.
+
+Le tableau ci-dessous présente une comparaison des différents algorithmes de
+classification.
+
+\begin{table}
+  \begin{center}
+    \renewcommand{\arraystretch}{1.5}
+
+    \begin{tabular}{|c|c|c|c|c|c|}
+      \hline
+      \rowcolor[gray]{0.7}
+      \bf\rule[-0.4cm]{0mm}{1cm} Algo & \bf Interprétabilite & \bf Précision & \bf{VE et VP} & \bf Données \\
+      \hline
+     \bf Knn & Oui & Faible & Dépend de K & Beaucoup \\
+      \hline
+     \bf Régression & Un peu & Faible & Rapide & Peu \\
+      \hline
+     \bf Naïves bayes & Un peu & Faible & Rapide & Peu \\
+      \hline
+     \bf Réseaux de neurones & non & Très élevé & Lent & Beaucoup \\
+      \hline
+      \bf{Arbre de décision} & Oui & Moyen & Rapide & Assez \\
+      \hline
+      \bf{Random Forest} & Non & Très élevé & Lent & Assez \\
+      \hline
+    \end{tabular}
+    \caption{Tableau de comparaison des algorithmes de classifications}
+    \label{tab:tab2}
+  \end{center}
+\end{table}
+Le tableau \ref{tab:tab2} révèle que les algorithmes de Réseaux de neurones et ceux de forêt
+aléatoire ont un taux très élevé de bonne prédiction. Malheureusement, ces
+algorithmes fonctionnent bien sur des jeude données énormes. De plus la vitesse
+d'apprentissage et de prédiction reste relativement lente par rapport aux
+autres algorithmes.
+

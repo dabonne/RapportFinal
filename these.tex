@@ -1,0 +1,36 @@
+\documentclass[a4paper, oneside,12pt]{book}
+\newcommand{\preprint}{NO}
+\input{sources/config.tex}
+\begin{document}
+\frontmatter
+\input{sources/frontmatter.tex}
+\tableofcontents%%{Table des matières}
+\markboth{Table des matières}{Table des matières}
+\listoffigures%%{Liste des figures}
+\markboth{Liste des figures}{Liste des figures}
+\listoftables%%{Liste des tableaux}
+\markboth{Liste des tableaux}{Liste des tableaux}
+\printnomenclature%%{Liste des notations}
+\markboth{Liste des notations}{Liste des notations}
+\addcontentsline{toc}{chapter}{Liste des notations}
+\mainmatter
+\input{sources/intro.tex}
+
+\glsresetall
+\input{sources/chapter1_toto/main.tex} 
+\glsresetall
+\input{sources/chapter2_ml/main.tex} 
+\glsresetall
+\input{sources/chapter3_titi/main.tex} 
+\glsresetall
+\input{sources/chapter4_impl/main.tex}
+
+\input{sources/conclu.tex}
+\appendix
+
+\input{sources/annexe1_ann/main.tex} 
+\input{sources/annexe2_conception/main.tex}
+
+\printglossary
+\input{biblio/biblio.tex}
+\end{document}

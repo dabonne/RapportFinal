@@ -1,0 +1,314 @@
+***************************
+* Template de thèse LaTeX *
+***************************
+
+À propos
+---------
+
+Un template LaTeX pour écrire sa thèse, qui utilise la plupart des packages
+nécessaires, ainsi qu'une configuration respectant la typographie française.
+(Since the template is designed for french typography, this documentation is
+now in french. This is only for the LaTeX configuration. The Makefile is not
+specificaly tuned for french typography and could be used for other purposes.)
+
+
+Vue générale
+-------------
+
+Pour récupérer la liste des commandes disponibles :
+
+  {prompt}$ make help
+  Help :
+  -----------
+   - make all : builds these.pdf without title, thanks, resumé
+   - make rtf : same as make all, but generates a RTF file (requires latex2rtf)
+   - make pdf : builds the full manuscript
+   - make finalize : recompiles the pdf without re-generating the these.tex
+  file
+   - make clean : cleans folders
+   - make proper : make clean + delete these.{pdf,tex,rtf}
+  -----------
+   - make intro : builds a pdf containing the introduction only
+   - make chapterX : chapters matching regular expression X
+   - make conclu : conclusion only
+   - make annexeX : same as chapterX, for appendix
+   - make biblio : builds a pdf containing all the references (nocite{*})
+   - make misc : builds a pdf containing misc stuff (like title, thanks, ...)
+  -----------
+   - make help : prints this help
+   More doc. at http://www.irisa.fr/prive/Antoine.Morvan/template_these/
+  -----------
+
+Le Makefile génère le fichier these.tex, qui est ensuite compilé par pdflatex.
+Le fichier these.tex inclut les fichiers contenus dans le dossier ./sources
+suivant la règle de Makefile qui est appelée. Par exemple la règle intro ('make
+intro') génère le fichier these.tex suivant :
+
+  {prompt}$ make intro > /dev/null && more these.tex
+  \documentclass[a4paper,11pt]{report}
+  \newcommand{\preprint}{NO}
+  \input{sources/config.tex}
+  \begin{document}
+  \tableofcontents%%{Table des matières}
+  \markboth{Table des matières}{Table des matières}
+  \input{sources/intro.tex}
+  \appendix
+  %%annexes%%
+  \printglossary
+  \input{biblio/biblio.tex}
+  \end{document}
+
+
+Configuration
+--------------
+
+La configuration se fait principalement dans les fichiers suivants :
+
+* config.mk : active le mode silencieux, définit la taille de la police, si les
+  tables des figures et des tableaux doivent apparaitre, ou s'il faut utiliser
+  une nomenclature (le glossaire est toujours actif) :
+
+    QUIET=NO
+    SIZE=11
+    TABLEOFFIGURES=NO
+    TABLEOFTABLES=NO
+    NOTATIONS=NO
+    PREPRINT=NO
+  
+  L'option 'PREPRINT' définit si les marges doivent être décalées de 0.5mm 
+  vers l'exterieur pour que le manuscrit soit mieux lisible après reliure.
+  Note : 'QUIET=YES' redirige aussi les erreurs LaTeX.
+* sources/config.tex : gestion des packages et
+  configuration générale. Ce fichier inclut aussi les fichiers suivants :
+
+  o sources/macro.tex : définition des macros;
+  o sources/definitions.tex : déclaration des définitions du glossaire (cf.
+    plus bas);
+  o sources/infos_titlepage.tex : configuration de la page de titre. Le titre
+    et le nom de l'auteur doivent être sur une seule ligne dans le fichier
+    source latex (grep/sed ne sont pas configurés pour supporter plusieurs
+    lignes). Les informations de la page de titre sont aussi utilisées dans les
+    meta-informations du fichier pdf généré.
+
+
+La configuration par défaut devrait être suffisante pour la plupart des
+manuscrits.
+
+Rédiger la thèse
+-----------------
+
+Fichiers :
+
+* sources/frontmatter.tex : Ce fichier inclu la page de titre (cf. plus bas),
+  et définit les pages de citation et de remerciements. Ces pages
+  n'apparaissent que lorsque les règles pdf ou misc sont utilisées. Les
+  citation/remerciements n'apparaissent que lorsque la thèse est soutenue
+  (après avec utilisé la commande '\soutenue').
+* sources/intro.tex : introduction;
+* sources/conclu.tex : conclusion;
+* biblio/publis.bib : fichier bibtex contenant les publications personnelles.
+  Cette bibliographie est séparée de la bibliographie principale, et n'apparait
+  que lorsque les règles pdf, misc ou all sont utilisées.
+* sources/backmatter.tex : Ce fichier inclu la page de résumé (cf. plus bas),
+  n'apparaissant que lorsque les règles pdf ou misc sont utilisées.
+
+Pour ajouter des chapitres, il faut créer des nouveaux dossiers avec un nom
+commençant par chapter dans le dossier ./sources, et contenant un fichier
+main.tex. Par exemple :
+
+  ./sources/chapter3_some_id/main.tex
+
+Lors que le Makefile génère le fichier these.tex, il cherche automatiquement
+les dossiers commençant par chapter dans le dossier ./sources/. Il génère dans
+ce fichier une commande \input{} pour chacun des fichiers main.tex contenus
+dans les dossiers des chapitres, dans l'ordre lexicographique.
+En utilisant la règle make chapterX, le Makefile ne génère de commande \input{}
+que pour les chapitres dont le dossier respecte l'expression régulière
+chapterX. Par exemple la commande make chapter3 utilisée avec le dossier
+précédemment créé introduit la commande LaTeX suivante dans le fichier
+these.tex :
+
+  \input{sources/chapter3_some_id/main.tex}
+
+
+Note
+-----
+
+L'exemple présenté ci-dessus utilise des chiffres pour identifiers les
+différents chapitres. Cependant il est possible d'utiliser des lettres ou des
+nombres. Dans le cas où il y a plus de 10 chapitres, il faut faire attention à
+commencer le chapitre 01 et nom le chaptre 1. En Effet chapter1 et chapter10
+respectent tous les 2 l'expression régulière chapter1*.
+Avec ce qui vient d'être dit, on remarque qu'il est possible de générer
+plusieurs chapitres à la fois en créant une expression régulière qui respecte
+plusieurs chapitres. Par exemple make chapter[1-3] génère des commandes \input
+{} pour les chapitres 1 à 3, make chapter[25] pour les chapitres 2 et 5.
+Grâce à ces expressions régulières il est possible de définir des règles
+personnalisées pour générer un ensemble de chapitres. En ajoutant
+
+  regle_perso: chapter[1-3]
+
+à la fin du Makefile, on crée une règle qui génère automatiquement les chapites
+1 à 3 lorsque l'on tape make regle_perso. Ces règles personnalises peuvent
+servir à regrouper les chapitres en parties, ou thème. Par exemple :
+
+  part1: chapter[1-3]
+  part2: chapter[45]
+  part3: chapter[6-9]
+  state_of_the_art: chapter[1246]
+  contribs: chapter[357]
+  implemresults: chapter[89]
+
+Le Makefile ne génère pas de commande LaTeX pour les parties (commande \part
+{Titre partie}. Pour avoir un manuscrit découpé en parties, il suffit d'ajouter
+cette commande au début du fichier main.tex du premier chapitre de la partie :
+
+  \part{Première partie}
+
+  \chapter{premier chapitre}
+
+  super chapitre !
+
+Au sein des fichiers main.tex des chapitres, la syntaxe est du LaTeX standard,
+supportant les accents et caractèrs spéciaux. Il s'assurer que les fichiers
+.tex soient bien encodés en UTF-8. Il est possible de découper les chapitres en
+plusieurs fichiers, un par section par exemple :
+
+  \input{sources/chapter1_some_id/section1_some_specific_topic.tex}
+
+ou d'inclure des images :
+
+  \includegraphics[width=5cm]{images/chapter1/some_picture.png}
+
+Note : les annexes fonctionnent exactement comme les chapitres.
+Pour plus d'informations sur LaTeX : WikiBooks.
+
+Page de titre et résumé
+------------------------
+
+La page de titre et le résumé sont construits séparément. En effet ces deux
+pages doivent généralement respecter une charte graphique qui dépend de
+l'université ou de l'école doctorale. Ces deux pages sont construites dans le
+dossier ./miscpages par un deuxième Makefile.
+L'objectif de ce 2eme Makefile est de constuire deux fichiers PDFs, un pour la
+page de titre et un pour la page de résumé (4eme de couverture). Par défaut, la
+page de titre est générée à partir du fichier LaTeX miscpages/title.tex et des
+informations contenues dans le fichier sources/infos_titlepage.tex. Le résumé
+est construit à partir du fichier miscpages/resume.tex. Certaines écoles
+fournissent la page de garde et de résumé, qu'il faut intégrer dans le PDF
+final. Il faut alors modifier le Makefile pour qu'il construise les fichiers
+title.pdf et resume.pdf, ou tout simplement préparer ces fichiers à la main et
+faire en sorte que le Makefile n'y touche pas. La seule contrainte est que
+chacun de ces deux fichiers ne doit faire qu'une seule page.
+Une fois les deux fichiers miscpages/title.pdf et miscpages/resume.pdf générés,
+ils sont inclus par les fichiers sources/frontmatter.tex et sources/
+backmatter.tex.
+
+Glossaire et Notations
+-----------------------
+
+Les définitions du glossaire sont déclarées dans le fichier sources/
+definitions.tex. Chaque déclaration est de la forme :
+
+  \newglossaryentry{identifiant}{
+  name={Acronyme},
+  description={description de l'acronyme},
+  first={command l'acronyme est affiché la première fois qu'il apparait dans le
+  texte}}
+
+Pour utiliser un acronyme, il suffit ensuite d'utiliser la commande \gls
+{identifiant}. À chaque chapitre, le compteur de références est remis à zéro,
+et l'acronyme est affiché tel qu'il est décris dans le champ first.
+Les notations (la nomenclature) doit être activée dans le Makefile (cf. ci-
+dessus). Chaque notation est définie grâce à la commande :
+
+  \nomenclature{$symbole$}{Description}
+
+La table des notations (apparaissant au début du document) affiche la liste des
+symboles, leur définition, et la page à laquelle ils sont définis. Le
+comportement est différent du glossaire, dans lequel l'acronyme est définis
+dans un premier temps, puis référencé par la suite.
+
+Compatibilité et dépendances
+-----------------------------
+
+Ce template fonctionne avec les packets TeXLive disponibles sur la majorité des
+distributions Linux. Il fonctionne aussi avec Miktex_2.9 exécuté depuis Cygwin
+sur les systèmes Windows. D'après certains, le template fonctionnerait sur
+systèmes Mac OSX, mais sérieusement, qui utilise Mac ?
+Le Makefile fait appel à divers outils, disponibles sur la plupart des
+distributions Linux, ainsi que sous Cygwin et Mac OSX :
+
+* make : nécessaire pour exécuter le Makefile;
+* bash : utilisé dans le script pour concaténer les bibliographies;
+* perl : utilisé par makeglossaries;
+
+Note : avec certaines anciennes versions du packet LaTeX hyperref l'option
+hidelinks n'est pas définie. Il suffit de l'enlever de la commande hypersetup
+dans le fichier sources/config.tex.
+
+
+CHANGELOG:
+------------
+
+v0.4.1 :
+- correction de '\alignquatriemedecouv' (mauvais alignement)
+- correction de 'frontmatter.tex' (mauvais alignement)
+- ajout d'une option PREPRINT dans le makefile (cf. doc)
+- ajout du package ulem pour ajouter des effets au texte (barré, souligné, ...)
+- ajout d'une commande pour définir les mots clés
+
+v0.4 :
+- mise à jour de la page de garde pour rennes 1
+- 'make annexe%' affiche bien "Annexe" au lieu de "Chapitre"
+- ghostscript et pdftk ne sont plus utilisés. Les pages de titre et de resumé
+  sont maintenant incluses via latex
+- remplacement du package 'vmargin' par 'geometry' pour la gestion des marges
+- le fichier 'citation_thanks.tex' est remplacé par 'frontmatter.tex', qui inclu aussi la page de titre
+- création du fichier 'backmatter.tex' pour inclure le résumé
+- la citation et les remerciements n'apparaissent qu'une fois la commande '\soutenue' utilisée
+
+v0.3 :
+- 'make clean' ne supprime plus le fichier $(BIBFILE). La suppression se fait dans la règle 'proper'
+- 'make clean' n'appelle plus le make clean du dossier biblio (qui ne faisait rien)
+- 'make finalize' utilise la règle clean (avant) pour éviter des crashs dus à des infos obsolètes
+- ajout du package 'rotating' pour afficher des tableaux/figures en paysage
+- commenter la commande \soutenue affiche bien "à soutenir"
+- la page de titre affiche la date de compilation lorsque la commande '\soutenue' est commentée
+- '/usr/bin/time' : l'option -f n'est pas posix. Remplacée par -p
+- ajout des commandes '\frontmatter' et '\mainmatter' dans init-book (numérotation romaine pour \frontmatter)
+- suppression des 'sed -i'
+- le comportement des règles 'annexe%' est le même que les règles 'chapter%'
+- les options du Makefile sont déplacées dans le fichier config.mk
+- biblio/buildAll.sh respecte posix.
+- correction de la numérotation sur les premières pages
+- correction de la page de garde rennes1
+- la construction du résumé et de la page de garde sont déplacées dans le dossier miscpages
+- la page de titre et le résumé sont liés au pdf avec ghostscript.
+- ajout de tests dans le Makefile pour vérifier la présence de perl, bash, pdftk et ghostscript 
+
+v0.2.1 :
+ - fix these.sty : ajout d'une virgule avant "qui" pour les directeurs de thèse
+ - vérifier si le binaire /usr/bin/time est présent sur le système avant de l'utiliser
+ - ajouter un echo dans la première règle appelée pour indiquer que le flot commence
+ - mise à jour de 'make help' 
+   - indique que 'make rtf' nécessite latex2rtf
+   - 'make chapterX' est maintenant correctement documenté
+   - 'make finalize' apparait dans l'aide 
+
+V0.2 : 
+- 'make rtf' pour générer un fichier .rtf
+- corriger le style bibtex (ajout de 2 styles dans ./biblio/)
+- déplacer publis persos dans ./biblio/
+- ajout d'une variable pour gérer le verbose (make <rule> QUIET=YES)
+- ajout d'un chronomètre
+- option [Algorithme] au package algorithm
+- ordonner les chapitres avec $(sort ) sur $(wildcard )
+- buildAll.sh de ./bilbio est maintenant en bash
+- ajout d'exemple de règles personnelles (pour générer des parties par ex.)
+
+v0.1.1 : 
+- première version.
+
+
+

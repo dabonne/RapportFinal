@@ -1,0 +1,53 @@
+
+
+
+\begin{table}
+  \begin{center}
+    \begin{scriptsize}
+      
+      \begin{tabular}{|p{10cm}|}
+
+        \hline
+        Cas d'utilisation \og S'authentifier \fg\\
+         \hline
+         \uline{Titre: } S'authentifier \\
+         \uline{Acteur Principal: } Guichetier \\
+         \uline{Date de création :} 15/01/2020 \\
+         \uline{Version: } 1.0 \\
+         \uline{Auteur: } Ghislain Seghda\\
+         \hline
+         \textbf{Description des enchainements}\\
+         \uline{Précondition}
+         L'utlisateur dispose d'un ordinateur sur le réseau de la SGBF \\
+         L'utilisateur dispose d'identifiant lui permettant d'accéder à la
+         plateforme\\
+         \hline
+         \textbf{\uline{Scénario nominal}}\\
+         \begin{enumerate}
+           \item L'acteur se rend à l'adresse de l'application dans un
+             navigateur depuis son ordinateur\\
+           \item L'application se charge et présente la fenêtre
+             d'authentification .\\
+           \item L'acteur entre son nom d'utilisateur et son mot de passe puis
+             valide ses entrées\[A1\], \[E1\]\\
+           \item Le système vérifie l'authenticitédes informations et ouvre la
+             page d'accueil.\\
+         \end{enumerate}
+         \textbf{\uline{Scénario alternatif}}\\
+         \begin{enumerate}
+           \item Le login et/ou le mot de passe sont incorrect pour la première
+             ou la deuxième fois \\
+           \item Le système informe l'acteur que les informations saisies sont
+             incorrectes.\\
+           \item Le scénario nominal reprend au point 1 \\
+         \end{enumerate}
+       \textbf{\uline{Scénario d'exception}}\\
+       \begin{enumerate}
+         \item L'acteur fourni pour la troisime fois des informations
+           d'authentification erronées\\
+         \item Le système bloque le compte de l'utilisateur\\
+       \end{enumerate}
+     \end{tabular}
+   \end{scriptsize}
+ \end{center}
+\end{table}

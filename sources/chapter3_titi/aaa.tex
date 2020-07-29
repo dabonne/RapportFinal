@@ -1,0 +1,75 @@
+\section{Machine Learning et mise en oeuvre d'un programme de conformité}
+
+Après avoir présenté les composantes d'un programme AML, nous allons analyser
+les moyens à mettre en oeuvre au sein des établissements de crédit pour 
+appliquer de manière opérationnelle les recommandations du GAFI
+\nomenclature{GAFI}{Groupe d'Action FInancière} et surtout 
+comment ces moyens pourraient être automatisés grâce au ML.
+ 
+\subsection{Le Machine Learning pour la simplification des procédures KYC}
+ 
+KYC \nomenclature{KYC}{Know Your Customer} est l'acronyme de Know Your Customer. Il désigne le processus permettant 
+de vérifier l'identité des intervenants à une opération bancaire afin de 
+s'assurer de la conformité des clients face aux législations anti-corruption,
+de leur probité et de leur intégrité.
+
+Initialement mise en oeuvre par une intervention humaine, les tâches 
+répétitives des procédures KYC pourraient être automatisées grâce au 
+Machine learning. Les principales étapes de la procédure KYC qui peuvent être
+automaisées par des modèles d'apprentissage automatiques sont:
+  
+  \subsubsection{L'identification et le contrôle des informations 
+    d'identification des clients}
+    Il s'agit au cours de cette étape de demander et d'enregistrer les
+    informations personnels du clients et de contrôler son identité par rapport
+    à une pièce d'identité officielle. A ce niveau, les informations
+    personnelles nom, prénoms, date de naissance, situation maritale,
+    adresse\ldots dites \og bio data \fg sont demandées.
+
+    Le contrôle des informations d'adresse nécessitera la fourniture par le 
+    client d'une pièce probante (facture d'eau, de téléphonie fixe, etc.).
+    La banque pourra également adresser un courrier de bienvenue ou de 
+    remerciement pour la fidélité au client  et vérifier que le courrier ne
+    revient pas.
+
+  \subsubsection{Le contrôle des clients par rapport aux listes de sanctions}
+    Lors de toute opération, la banque contrôle la présence éventuelle d'un
+     des intervenants de l'opération sur une ou plusieurs listes de 
+    sanction, selon la réglementation en vigueur dans le pays. Ces listes sont
+    établies par les autorités officielles(nationales ou supranationales comme
+    L'ONU, L'Union Européenne). Elles regroupent des individus ou de groupes qui
+    compte tenu de leur activités ont été frappé de mesure d'embargo nominative.
+
+  \subsubsection{Qualification du risque de blanchiment}
+    Il s'agit là de vérifier si le client n'existe pas sur des listes qui ne 
+    sont pas d'ordre public. Ces listes peuvent être celles des PEP
+    \nomenclature{PEP}{Personnes Exposées Politiquement} ou une liste d'indésirables car en opposition 
+    avec la déontologie et les valeurs du groupe financier.
+
+  \subsubsection{Consignation des pièces d'identification des clients}
+    Après la phase d'identification du client et de son contrôle, 
+    l'établissement financier doit enregistrer les preuves d'identification du
+    client et les archiver.
+
+    
+\subsection{Le Machine Learning, un outil essentiel à la détection des 
+ transactions suspectes}
+ 
+ La lutte contre le blanchiment d'argent et le financement du terrorisme est
+ principalement basée sur l'élaboration, par des algorithmes, de scénarios
+ d'anticipation dits « déterministes ». Les algorithmes utilisés analysent
+ en temps réel les transactions et sont capables, en quelques instants, de
+ décéler une transaction suspecte. Ces scénarios se basent sur des règles
+ arrêtées, constantes et ne sont que très peu modifiés une fois mis en 
+ place. La procédure est basé sur des mots clés et il est difficile de calibrer
+ ces logiciels à un niveau permettant une protection optimale face aux 
+ transactions frauduleuses sans générer pour autant un nombre élevé de fausses
+ alertes qui de ce fait viendrait perturber les activités de conformité.
+
+ Pour résoudre ces problémes particulièrement chronophages et coûteux pour les
+ banques, des applications basées sur le Machine Learning pourraient apprendre
+ à identifier les transactions frauduleuses en établissant des procédés 
+ standardisés et automatisés. Cela permettra de réduire la charge de travail des
+ équipes, tout en affinant la précision de l'analyse. Il s'agirait là pour les
+ banques de réduire leurs coùts et leur sanctions, tout en assignant un travail
+ à plus forte valeur ajoutée aux équipes chargées de la conformité.

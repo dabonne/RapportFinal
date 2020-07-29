@@ -1,0 +1,93 @@
+Dans le tableau \ref{tab:tab3}, nous présentons l'ensemble des caractéristiques de
+notre jeu de données. Celles qui sont en italiques représentent les 
+caractéristiques d'entrée de notre algorithmes de machine learning.
+
+
+\begin{table}
+
+  \begin{center}
+    \begin{scriptsize}
+      \renewcommand{\arraystretch}{2}
+      \begin{tabular}{|c|l|l|}
+        \hline
+        \rowcolor[gray]{.7}
+        \bf \rule[-0.4cm]{0mm}{1cm} Section & \bf Caractéristiques & \bf Exemples\\
+        \hline
+        \multirow{7}{*}{\bf Emetteur de l'ordre} & \textit{Type de personne} & Personne 
+        physique 
+        \tabularnewline
+        & Identité & XXXXXX XXXXXX \tabularnewline 
+        & \textit{Résultat du contrôle de l'émetteur} & Aucune sanction  \tabularnewline
+        & Pays de résidence & Burkina Faso \tabularnewline
+        & \textit{Notation du pays de résidence} & LOW \tabularnewline
+        & Banque de l’émetteur & SGBF \tabularnewline
+        & Pays de la banque & Burkina Faso \tabularnewline
+        & \textit{Notation Pays de la banque} & LOW \tabularnewline
+        & \textit{Résultat du contrôle sur la banque} & Aucune sanction  \tabularnewline
+        & \textit{Activité de l'emetteur} & Activités extractives \tabularnewline 
+        \hline
+
+        \multirow{7}{*}{\bf Bénéficiaire de l'ordre} & \textit{Type de personne} & Personne
+        morale 
+        \tabularnewline
+        & Identité & ZZZZZZZZZZ \tabularnewline
+        & \textit{Résultat du contrôle sur la personne} & Aucune sanction  \tabularnewline
+        & Pays de résidence & France \tabularnewline 
+        & \textit{Notation du pays de résidence} & LOW \tabularnewline
+        & Banque de l’émetteur & BNP Paribas \tabularnewline
+        & Pays de la banque & France \tabularnewline 
+        & \textit{Notation Pays de la banque} & LOW \tabularnewline
+        & \textit{Résultat du contrôle de la banque} & Aucune sanction  \tabularnewline
+        & \textit{Activité du bénéficiaire} & Hébergement et hôtellerie  \tabularnewline 
+        \hline
+        \multirow{5}{*}{\bf Opération} & Type  & Règlement de facture \tabularnewline
+        & \textit{Objet}  & Frais d'hébergement \tabularnewline
+        & \textit{Montant}& 25000 \tabularnewline
+        & Devise & Euros \tabularnewline
+
+        \hline
+      \end{tabular}
+    \end{scriptsize}
+    \caption{Exemple de dossier d'opération conforme \label{tab:tab3}}
+  \end{center}
+\end{table}
+
+
+Le jeu de données final qui a servi pour l'apprentissage et les tests  est constitué de
+six cent (600) dossiers d'opérations.
+
+
+Pour des questions pratiques, nous avons constitué un dictionnaire des
+différents secteurs d'activités ainsi que des objets de transactions.
+Un échantillon du dictionnaire est présenté au tableau \ref{tab:codage}.
+\begin{table}
+ \begin{center}
+    \begin{scriptsize}
+      \renewcommand{\arraystretch}{2}
+      \begin{tabular}{|m{5cm}|m{2cm}||m{5cm}|m{2cm}|}
+        \hline
+        \rowcolor[gray]{.7}
+        \bf \rule[-0.4cm]{0mm}{1cm} Libellé secteur d'activité & \bf Code &
+        \bf Libelle du secteur d'activité & \bf Code \\
+        \hline
+
+      Activités extractives & 0 &  Activités financières & 15 \\
+      Agriculture et chasse & 1 & Hôtels et restauration & 3 \\
+      Industrie & 4 & Activites de ménages & 5 \\
+      Activités des organisations extraterritoriales & 6 & Activités financières & 7 \\
+      Commerce gros & 8 & Santé et action sociale & 8 \\
+      Administration publique & 9 & Commerce détail\\
+      Transport & 10 & Education & 11 \\
+      Développements logiciels & 12 & Maintenance de materiels informatiques & 13\\
+      Fabrication Produits pharmaceutiques & 16 & Construction & 17 \\
+      Fabrication de meubles & 18 & Activités associatives & 19 \\
+      Commerce détail & 20 & Fabrication chaussures & 21 \\
+      Télécommunications & 22 & Activités Juridiques & 23 \\
+      Fabrications produits alimentaires & 24 & Service immobilier & 25 \\
+      Fabrication de boissons & 26 & Pêche et pisciculture & 27 \\
+        \hline
+      \end{tabular}
+      \end{scriptsize}
+      \caption{Codage de quelques secteurs d'activités\label{tab:codage}}
+  \end{center}
+\end{table}

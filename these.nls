@@ -1,0 +1,38 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{AML}]\begingroup Anti Money Laundering\nomeqref {3.0}
+		\nompageref{36}
+  \item [{CAI}]\begingroup Caisse Autonome d'Investissement\nomeqref {1.0}
+		\nompageref{4}
+  \item [{CBS}]\begingroup Core Banking System\nomeqref {1.0}
+		\nompageref{7}
+  \item [{CFT}]\begingroup Contre le Financement du Terrorisme\nomeqref {3.0}
+		\nompageref{37}
+  \item [{CNDI}]\begingroup Caisse Autonome des Dépots et des        Investissements\nomeqref {1.0}
+		\nompageref{4}
+  \item [{GAFI}]\begingroup Groupe d'Action FInancière\nomeqref {3.0}
+		\nompageref{39}
+  \item [{IA}]\begingroup Intelligence Artificielle\nomeqref {0}
+		\nompageref{1}
+  \item [{KNN}]\begingroup K-Nearest Neighbors\nomeqref {2.0}
+		\nompageref{17}
+  \item [{KYC}]\begingroup Know Your Customer\nomeqref {3.0}
+		\nompageref{39}
+  \item [{LAB}]\begingroup Lutte Anti Blanchiment\nomeqref {3.0}
+		\nompageref{37}
+  \item [{OPI}]\begingroup OPérations Internationales\nomeqref {1.0}
+		\nompageref{6}
+  \item [{PEP}]\begingroup Personnes Exposées Politiquement\nomeqref {3.0}
+		\nompageref{40}
+  \item [{SG}]\begingroup Société Générale\nomeqref {1.0}
+		\nompageref{3}
+  \item [{SGBF}]\begingroup Société Générale Burkina Faso\nomeqref {1.0}
+		\nompageref{3}
+  \item [{SVM}]\begingroup Support Vector Machine\nomeqref {2.0}
+		\nompageref{20}
+  \item [{UREBA}]\begingroup Union Révolutionnaire de Banques\nomeqref {1.0}
+		\nompageref{4}
+
+\end{thenomenclature}
