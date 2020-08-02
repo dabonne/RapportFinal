@@ -1,229 +1,171 @@
 \chapter{Contexte général de l'étude}
 
 \section*{Introduction}
-L’un des critères les plus importants de la réussite d’un projet est la 
-satisfaction du client et des utilisateurs finaux. Nous ne pouvons satisfaire
-le demandeur sans avoir compris les problèmes qui ont suscité la naissance du projet.
-Dans ce chapitre, nous présenterons dans un premier temps la structure dans
-laquelle nous avons effectué notre stage. En second lieu, mous parlerons du
-projet qui nous a été confié, de son intéret pour l'entreprise, de ses
-objectifs et de la problématique y afférente.
+Ce stage resulte de plusieurs collaborations. D’une part elle result d’une collabo-
+ration entre l’Université Nazi Bonin et L’université Lumière Lyon 2 dans le cadre du
+programme erasmus+ mobilité etudiantes. C’est dans ce cadre que nous avons été
+acceuillit au dans les locaux du LIRIS au sein de l’Université Lumière Lyon 2. Ce su-
+jet de stage intitulé «segmentation géométrique et ghotométrique d’images acquises
+par drones», resulte aussi d’une collaboration entre la société TECNI DRONE basée
+à Baix (Ardèche) et l’equipe Imagine du LIRIS (site de l’Université Lumière Lyon
+2 à Bron). TECNI DRONE se specialise dans la formation de pilot de drones et dans
+l’acquisition de données géométriques issues de mines et de carrières. Les campagnes
+d’acquisition d’images par drones, en milieu naturel, permettent de produire avec un
+très haut niveau de qualité, des modèles numériques de terrains texturés, porteurs à
+la fois d’informations géométriques et d’informations photométriques extrêmement
+riches. De nombreuses recherches ont été menées au cours des dernières années, pour
+affiner la qualité du traitement de ces données visuelles, et produire des maillages
+texturés de plus en plus fiables. En revanche, l’exploitation de ces données reste pour
+l’instant limitée soit à des traitements géométriques effectués sur les maillages 3D,
+soit à des traitements d’images 2D, effectués par exemple sur les ortho-images obtenues 
+par assemblage des multiples vues partielles.
 
 \section{La structure d'accueil}
 
-\subsection{Présentation et Histoire}
+\subsection{Présentation }
 
- \subsubsection{Présentation de la Société Générale Burkina Faso}
+ \subsubsection{Présentation du LIRIS}
 
- Nous avons effectué notre stage au sein de la Société Générale Burkina Faso \nomenclature{SGBF}{Société Générale Burkina Faso}
-une filiale du groupe français \nomenclature{SG}{Société Générale} Société
-Générale.
-La Société Générale Burkina Faso exerce dans la banque de détail et les services
-financiers, la gestion d’actifs et services aux investisseurs et dans la banque
-de financement et d’investissement. Elle a pour ambition\footnote{https://societegenerale.bf/fr/votre-banque/presentation}
-de:
+Nous avons effectué notre stage au sein du Laboratoire d'InfoRmatique en 
+Image et Systeme d'information \nomenclature{LIRIS}{Laboratoire d'InfoRmatique en Image et Systeme d'information}.
+Le \nomenclature{LIRIS}{Laboratoire d'InfoRmatique en Image et Systeme d'information}est une unité miste de recherche  (\nomenclature{UMR}{Unité Mixte de Recherche} 5205) porté par
 \begin{itemize}
-  \item Bâtir avec ses clients une relation équilibrée et équitable où elle est
-    est avec eux , à leurs côtés pour les aider à progresser;
-  \item Mettre sa performance au service de ses clients;
-  \item Etre la banque relationnelle, référence sur ses marchés, choisie pour la
-    qualité et l'engagementde ses équipes;
+  \item le CNRS
+  \item l'INSA de Lyon
+  \item l'Université Claude Bernard Lyon 1
+  \item l'Université Lumière Lyon 2
+  \item l'Ecole Centrale de Lyon
+\end{itemize}
+Il compte 330 membres, et a pour principal champ scientifique 
+l'Informatique et plus généralement les Sciences et Technologies de l’Information.
+Une partie importante de la recherche effectuée au LIRIS s’étend à la frontière de notre 
+discipline, au service de problématiques sociétales importantes. Certaines des ses activités de 
+recherche se situent aux interfaces de l’ingénierie, des sciences humaines et sociales, des sciences 
+de la vie et des sciences de l’environnement. L’ensemble des 6 pôles de compétences du LIRIS participe 
+de façon équilibrée à la valorisation des travaux de recherche. Par ailleurs, le LIRIS entretient de 
+nombreuses relations avec son environnement social, économique et culturel, aussi bien aux niveaux 
+local et régional qu’au niveau  national. 
+Les interactions avec les entreprises s’établissent au travers de projets collaboratifs.
+Le LIRIS couvre des thématiques scientifiques structurées en 6 pôles de compétences regroupant 14 équipes. 
+\begin{itemize}
+  \item Simulation, virtualité \& sciences computationnelles (Equipes Beagle, R3AM, SAARA)
+  \item Géométrie \& modélisation (Equipes GeoMod, M2DisCo)
+  \item Science des données (Equipes BD, DM2L, GOAL)
+  \item Vision intelligente \& reconnaissance visuelle (Equipe Imagine)
+  \item Interactions \& cognition (Equipes SICAL, SMA, TWEAK)
+  \item Services, systèmes distribués, sécurité (Equipes DRIM, SOC)
 \end{itemize}
 
-\subsubsection{Historique de la SGBF}
+Les travaux des équipes de recherche trouvent aussi des applications dans les secteurs : 
+Biologie et santé (modelisation du vivant, ingénierie pour la santé), Intelligence ambiante 
+(systèmes pervasifs et distribués, monitoring intelligent, systèmes autonomes), Apprentissage
+humain (personnalisation, assistance cognitive, assistance à l'apprentissage collaboratif, 
+jeux sérieux, loisirs numériques), Calcul scientifique (traitement de grandes masses de données
+– big data).
 
-La SGBF a été créée en mai 1998 avec la participation de l'Etat Burkinabé et de
-plusieurs partenaires financiers nationaux et internationaux. Elle est née de la 
-cession par l’état de $51\%$ du capital de la Banque pour le Financement du Commerce et des
-investissements au Burkina (BFCI-B)
-\footnote{https://societegenerale.bf/fr/votre-banque/presentation/notre-histoire}.
+
+\subsubsection{Presentation de l'equipe Imagine}
+Nous avons effectués notre stage au sein de l'equipe Imagine sur le site de l'
+université Lumière Lyon 2 à Bron.
+L’équipe Imagine du LIRIS est spécialisée dans la vision par ordinateur, l’apprentissage 
+et la reconnaissance de formes. Elle réunit 21 membres permanents (8 PR, 3 MCF-HDR et 10 MCF), 
+enseignants-chercheurs de l’Université Lyon 1, de l’Université Lyon 2, de l’École Centrale de 
+Lyon et de l’INSA Lyon.
+En 2019, elle compte également parmi ses membres 29 doctorants et 17 post-doctorants.
+Les différentes activités de recherche menées dans l’équipe Imagine partagent les mêmes 
+objectifs généraux visant la compréhension d’images multi-sources et multi-capteurs, 
+intégrant ainsi une très large variété de contenus autour des images de personnes, d’objets 
+et de scènes en 2D et 3D (scènes naturelles ou urbaines, images aériennes et satellites, visages…), 
+des séquences d’images et des flux vidéos, ainsi que des documents numérisés (cartes, textes écrits et 
+imprimés, partitions et symboles…). La notion d’objet visuel, au sens large, constitue ainsi un 
+dénominateur commun de nos recherches.
+Les activités de l’équipe Imagine se déclinent en différentes thématiques 
+liées à la mise en œuvre de méthodes d’indexation, de modélisation, 
+de classification et de reconnaissance du contenu (objets, actions, concepts), 
+avec une attention particulière portée au développement de méthodes d’apprentissage 
+automatique pour la vision par ordinateur.
+Les recherches menées dans l’équipe Imagine visent à construire des passerelles pour 
+franchir le fossé sémantique entre, d’une part, les informations de bas niveau présentes 
+dans les données brutes (données échantillonnées issues du signal), les éventuelles données 
+multi-sources issues d’autres modalités ou capteurs (cas notamment des applications embarquées) 
+et les informations de plus haut niveau sémantique qui reposent sur la modélisation, la 
+classification et l’identification des contenus.
+L’activité de recherche de l’équipe Imagine relève de 5 
+sous-thèmes majeurs qui constituent le cœur de ses applications.
+
+\includegraphics[scale=0.4]{images/Imagine.png}~\\[0.8cm]
 
 
-  \begin{description}
-     \item[Septembre 1973:] Création de la Caisse Nationale des Dépots et des
-       Investissements(CNDI)\nomenclature{CNDI}{Caisse Autonome des Dépots et des
-       Investissements}.
-    \item[Août 1984:] Création de l'Union Révolutionnaire de
-      Banques(UREBA)\nomenclature{UREBA}{Union Révolutionnaire de Banques}
-    \item[Juin 1986:] Création de la Caisse Autonome
-      d'Investissement(CAI).\nomenclature{CAI}{Caisse Autonome d'Investissement}
-     \item[Août 1986:] Transformation de la CNDI en banque commerciale sous la forme
-  d s'une société d'économie mixte.
-    \item[Décembre 1987:] Changement de dénomination de CNDI en BFCI-B
-    \item[Février 1991 à Décembre 1996:] Mise sous administration provisoire du
-  Groupe BFCI-BUREBA-CAI. Fusion-absorption de l'UREBA et de la CAI par 
-  la BFCI-B en mai 1995.
-    \item[Février 1997:] Cession par l'état de 34\% du capital à des privés
-      nationaux.
-    \item[Mai 1998:] Cession par l'état de 51\% du capital à des partenaires
-      étrangers. La BFCI-B devient la Société Générale des Banques du
-      Burkina(SGBB).
-    \item[08 février 2013:] Changement de dénomination sociale: la SGBB devient
-      la Société Générale Burkina Faso(SGBF).
-  \end{description}
+ 
 
   \subsection{Organisation}
    \subsubsection{Organigramme}  
-L'organnigramme de la Société Générale Burkina Faso se présente comme suit: 
+L'organnigramme du LIRIS se présente comme suit: 
 (voir Figure \ref{fig:organigramme}).
  \begin{figure}[h!]
   \begin{center}
-    \includegraphics[width=17cm]{images/organigramme.png}
-\caption{Organigramme de la société générale Burkina
-Faso.\label{fig:organigramme}}
+    \includegraphics[width=17cm]{images/OrganigrammeLiris.png}
+\caption{Organigramme du LIRIS.\label{fig:organigramme}}
 \end{center}
 \end{figure}
 
 
-  \subsubsection{La direction des resources}
-
-Nous avons effectué notre stage au sein de la Direction des Ressources plus précisément
-dans la cellule Innovation de cette direction. La Direction des Ressources est 
-l’entité chargée de gérer toutes les ressources matérielles et logicielles de la
-banque. Les missions de la cellule Innovation, service dans lequel nous avons 
-effectué notre stage sont les suivantes:
-\begin{itemize}
-  \item Continuer de diffuser la culture de l’innovation
-  \item Identifier de nouveaux business et services pour les clients
-  \item Développer de nouveaux process optimaux dans la réalisation des tâches quotidiennes
-    des collaborateurs.
-  \item Favoriser l’émergence d’innovations de rupture et tirer parti des technologies et de
-    la gestion des données.
-\end{itemize}
- 
  \section{Présentation du sujet}
 
-\subsection{Libellé du sujet}
+\subsection{Intitulé de sujet}
 
-\textbf{Application des techniques de Machine Learning à l’analyse de la 
-conformité des dossiers de transferts à l'étranger.}
+\textbf{Segmentation Géométrique etPhotométrique d’images Acquises par Drones}
 
  \subsection{Contexte du sujet}
 
- L’esprit d'équipe, l’innovation, la responsabilité et l'engagement 
- traversent toutes les activités de la banque.  A travers cette approche,
- la Société Générale cherche des moyens qui lui permettront d’améliorer
- la satisfaction client par un traitement qualitatif et rapide des 
- opérations qui leur ont été soumis. 
- 
- Dans ses missions quotidiennes, la SGBF effectue pour ses clients des 
- opérations à l’étranger(pays n'appartenant pas à la zone UEMOA). Ces 
- opérations comportent de nombreux risques de violation des différentes 
- règlementations en cours.
 
-Effectuer une opération de transfert à l'étranger commence par la constitution
-d'un dossier appellé dossier de transfert.
-Lorsqu’un client veut effectuer un transfert vers un pays  étranger, la
-règlementation exige qu’il transmette à l’intermédiaire agréé qui est la banque
-un certain nombre d’éléments permettant de justifier le transfert qu’il voudrait
-initier. L'ensemble de ces éléments constitue le dossier de transfert. L’analyse
-du dossier par les experts de la règlementation s’effectue après que le client 
-soit reparti. Une journée complète peut s'écouler entre le moment où le dossier
-est déposé au guichet et celui où le transfert est réellement effectuer et ceci 
-lorsque le dossier ne comporte aucune irrégularité. 
-
-En cas d’irrégularités, le dossier est transmis au conseiller du client qui se 
-chargera de le contacter pour lui demander de passer corriger les irrégularités
-qui ont été constatées sur son dossier. Lorsque les irrégularités ont été
-corrigées, le dossier reprend le circuit d'analyse.
-
-Dans un domaine où la satisfaction du client et la célérité dans le 
-traitement des opérations est une exigence et face à l'augmentation 
-significative des règlementations et obligations de communications qui en
-découlent, vingt-quatre heures pour traiter une opération est un délai déjà
-long. Lorsque le dossier comporte des irrégulariés ce délai sera encore
-rallonger d'au moins 24 heures encore. 
-
-Lorsque un dossier non conforme à la conformité passe malgré le système d'analyse
-mis en place par l'institution financière en l'occurance la SGBF ce sont 
-d'importantes sanctions financières et disciplinaires qui lui seront imposées.
-En 2018 par exemple, la SG a payé une amende d'environ 1.2 milliards d'Euros 
-pour des opérations en dollars vers des entités sanctionnées par les autorités 
-américaine.
-
-Au vue des enjeux économiques que suscitent ces situations, nous nous sommes 
-posés la question comment permettre aux collaborateurs du services Opérations
-Internationales(OPI) \footnote{Le service OPI est un service appartenant à la
-direction des Opérations(DOPE)}
-\nomenclature{OPI}{OPérations Internationales} de donner à un client l’état de son opération
-vis à vis de la règlementation sous réserve d'un contrôle beaucoup plus approfondi. 
-Cela permettra d'une part de diminuer la charge de travail des collaborateurs de la banque
-et rassurera d'autre part le client sur la volonté des collaborateurs de 
-traiter diligemment de son opération.
 
 \subsection{Intérêt du sujet}
  
-Ce projet est d’un intérêt très élevé pour la SGBF car elle vise à
-apporter des solutions pour le traitement rapide des opérations à l'étranger.
+Ce projet est très important pour Technidrone dans la mesure ou elle vise à
+assister les techniciens de Technidrone dans leur tache d'annotation par la meme occasions reduire de façon 
+significative le temps de travail de ces derniers.
 Les résultats attendus sont:
 \begin{itemize}
-  \item Un gain en temps,
-  \item Une facilité de prise de décision,
-  \item Une grande disponibilité et de performance 
-  \item Un système toujours actuel et compatible
-  \item Faciliter la gestion des réclamations
+  \item Un gain en temps;
+  \item Identification automatique des formes geometriques dans les images;
+  \item 
 \end{itemize}
 
     \subsection{Problématique du sujet}
 
-Le service des opérations internationales (OPI) reçoit en moyenne quatre-vingt-dix
-(90) dossiers d’opérations de transferts par jour. Ces opérations sont de
-plusieurs types et comprennent transactions quotidiennes, périodiques et 
-apériodiques effectuées par, ou touchant à de nombreuses parties prenantes
-telles que les employés, les clients, les débiteurs et des entités externes.
-La nature complexe de ces activités et de ces activités et transactions 
-nécessite une surveillance constante pour s’assurer que ni la banque, ni
-ses employés ne sont exposés à des risques.
-
-Une analyse rigoureuse est donc appliquée après réception d’un dossier au guichet.
-Cette analyse concerne aussi bien les différents intervenants de l'opération que
-la nature l'opération elle-même.
-Cette analyse peut être décrite suivant trois axes majeurs :
-\begin{itemize}
-  \item Analyse de la complétude du dossier 
-  \item Analyse de la fiabilité des différents intervenants de l'opération 
-  \item Analyse de la conformité règlementaire de l'opération
-\end{itemize}
-C'est après toutes ces analyses que le dossier est transmis pour saisie et
-validation dans  le CBS\nomenclature{CBS}{Core Banking System}. Si le dossier comporte des 
-irrégularités, il est transmis au conseiller ou à la conformité pour demande
-d'accord. Sinon la saisie est validée et le transfert éffectué.
-
-Pour pouvoir mettre en place un système qui puisse analyser les dossiers de ces
-opérations, il nous faudra trouver des réponses aux questions suivantes:
-\begin{itemize}
-  \item Comment codifier le dossier d'une opération à l'étranger ?
-  \item Quels sont les caractéristiques qui entre en jeux dans l'analyse d'un
-    dossier de transfert ?
-  \item La règlementation financière est un outil  qui évolue. Comment mettre en
-    place un système qui puisse très vite s'adapter à des évolutions ?
-  \item La Banque a l'obligation de communiquer avec le client sur la raison
-    pour laquelle son opération a été rejetée au cas où elle l'est. Quels 
-    méthodes d'apprentissage sied le mieux à ce problème ?
-\end{itemize}
-Pour répondre à ces interrogations, nous allons explorer tous les contours du
-domaine d'étude, afin de fixer les bases solides qui nous permettront de mener
-notre projet à son terme.
+    L’exploitation de données recoltées lors des campagnes d'acquisition reste pour
+    l’instant limitée soit à des traitements géométriques effectués sur les maillages 3D,
+    soit à des traitements d’images 2D, effectués par exemple sur les ortho-images obtenues
+    par assemblage des multiples vues partielles. En revanche, la qualification de
+    ces données, indispensable aux exploitants, reste pour l’instant un travail essentiellement manuel.
+    Il s’agit par exemple, d’identifier les ruptures de pentes qui délimitent
+    les voies de roulement des engins, de calculer la largeur de ces voies, de délimiter
+    les hauts et les bas de talus, de calculer le volume des tas correspondant aux matériaux 
+    extraits des carrières, etc. Ce processus qui est très important pour créer la
+    carte d’une mine ou d’une carrière prend une dizaine d’heures pour un personnel
+    entraîné. Une première etude effectuée au sein du laboratoire, axée essentiellement
+    sur la geometrie contenue dans les maillages 3D a permis d’obtenir 62\% de rappel
+    et 10\% de precision.
 
 \subsection{Objectifs}
 
-L’objectif de l’étude est de développer un environnement permettant une analyse des dossiers et des 
-intervenants des différentes opérations de transferts.
-Spécifiquement, il s'agit de 
-\begin{itemize}
-\item comprendre le processus d'analyse de dossier afin de dégager les grandes étapes;
-\item Proposer un modèle de machine learning permettant d'analyser un dossier de
-  transfert fourni en paramètre vis à vis de la règlementation;
-\item Utiliser le modèle qui aura été mis en place afin de détecter des
-  transactions suspectes;
-\item Mettre en place une interface web permettant d'utiliser ce modèle.
-\end{itemize}
+L’objectif de stage est d’utiliser d'une part les informations issues de la texture pour 
+ameliorer les resultats obtenus en se basant uniquement sur la geometrie, et d'autre part, d’utiliser
+de manière conjointe des informations issues des maillages, 
+décrivant la géométrie de la scène, avec des données issues de la texture, portant des informations 
+sur les discontinuités photométriques du terrain, pour assister les opérateurs dans leur tâche d’annotation 
+des modèles numériques, construits à partir des images acquises par les drones.
+En se basant sur des terrains déjà annotés, et en entraînant des classifieurs à reconnaître
+les structures géométriques ou les motifs d’intérêt, nous voulons évaluer la capacité d’un système automatisé 
+à effectuer cette identification avec un taux de succès le plus élevé possible. La tâche de 
+l’opérateur se limiterait alors à la correction des inévitables erreurs de classification.
 
 \input{sources/chapter1_toto/concepts.tex}
 
 \section*{Conclusion}
-Il  a été question dans ce chapitre de présenter  la structure d’accueil,
-la SGBF, qui a suivi et coordonné tous les travaux .Ensuite nous avons
-présenté le sujet qui nous a été confié, dégager sa problématique et
-l’intérêt qu’il suscite pour la Société Générale Burkina Faso. Dans la suite,
-il sera question  d’aborder le machine learning et les algorithmes de classification.
+Dans ce chapitre il  a été question dans ce chapitre de présenter  la structure d’accueil,
+au sein de laquelle nous avons menés nos travaux de recherche. .Ensuite nous avons
+présenté le sujet qui qui fait objet de ce memoire, dégager sa problématique et
+l’intérêt qu’il suscite pour la Société Technidrone. Dans le chapitre suivant,
+nous parlerons des techniques machine learning, de la segmentation et de la classification.
