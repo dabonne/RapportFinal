@@ -1,24 +1,28 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Organigramme du LIRIS.\relax }}{5}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Circuit d'une op\IeC {\'e}ration de cr\IeC {\'e}dit documentaire. \relax }}{9}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Circuit d'une op\IeC {\'e}ration de remise documentaire. \relax }}{10}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces L\IeC {\textquoteright }ortho mosa\IeC {\"\i }que de la carri\IeC {\`e}re et la carte de la carri\IeC {\`e}re. \relax }}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Processus de traitement Pix4D. \relax }}{7}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Detection manuel des lignes de ruptures de pente. \relax }}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Maillage 3D sans texture. \relax }}{8}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Position des images prise par drones. \relax }}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Classification sur QGIS. \relax }}{9}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Clustering des donn\IeC {\'e}es.\relax }}{15}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Fonctionnement de l'algorithme K-NN.\relax }}{17}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Machine \IeC {\`a} vecteurs de support .\relax }}{19}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Arbre de d\IeC {\'e}cision. \relax }}{23}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces For\IeC {\^e}t al\IeC {\'e}atoire.\relax }}{28}{figure.caption.56}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Clustering des donn\IeC {\'e}es.\relax }}{14}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fonctionnement de l'algorithme K-NN.\relax }}{16}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Machine \IeC {\`a} vecteurs de support .\relax }}{18}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Arbre de d\IeC {\'e}cision. \relax }}{22}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces For\IeC {\^e}t al\IeC {\'e}atoire.\relax }}{27}{figure.caption.52}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Domaine d'intervention de la conformit\IeC {\'e} .\relax }}{33}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Domaine d'intervention de la conformit\IeC {\'e} .\relax }}{32}{figure.caption.64}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces R\IeC {\'e}sultat du test. \relax }}{49}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces R\IeC {\'e}sultat de l'entrainement avec Random Forest\relax }}{50}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ecran de renseignement des informations sur la transaction.\relax }}{51}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Ecran de renseignement des informations sur l'\IeC {\'e}metteur de l'ordre.\relax }}{51}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Ecran de renseignement des informations sur le b\IeC {\'e}n\IeC {\'e}ficiaire de l'ordre.\relax }}{52}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ecran de pr\IeC {\'e}sentation des d\IeC {\'e}tails et du r\IeC {\'e}sultat de l'analyse .\relax }}{52}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces R\IeC {\'e}sultat du test. \relax }}{48}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces R\IeC {\'e}sultat de l'entrainement avec Random Forest\relax }}{49}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ecran de renseignement des informations sur la transaction.\relax }}{50}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ecran de renseignement des informations sur l'\IeC {\'e}metteur de l'ordre.\relax }}{50}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ecran de renseignement des informations sur le b\IeC {\'e}n\IeC {\'e}ficiaire de l'ordre.\relax }}{51}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ecran de pr\IeC {\'e}sentation des d\IeC {\'e}tails et du r\IeC {\'e}sultat de l'analyse .\relax }}{51}{figure.caption.101}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Diagramme des cas d'utilisation.\relax }}{60}{figure.caption.111}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Diagramme de classes.\relax }}{61}{figure.caption.112}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Diagramme des cas d'utilisation.\relax }}{59}{figure.caption.107}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Diagramme de classes.\relax }}{60}{figure.caption.108}%

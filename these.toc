@@ -14,132 +14,124 @@
 \contentsline {subsection}{\numberline {1.2.3}Int\IeC {\'e}r\IeC {\^e}t du sujet}{6}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Probl\IeC {\'e}matique du sujet}{6}{subsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Objectifs}{6}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Concepts cl\IeC {\'e}s du sujet}{7}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Vocabulaire}{7}{subsection.1.3.1}%
-\contentsline {subsubsection}{Dossier de Transfert}{7}{section*.14}%
-\contentsline {subsubsection}{Pays \IeC {\'e}tranger}{7}{section*.15}%
-\contentsline {subsubsection}{R\IeC {\'e}sidents et Non-R\IeC {\'e}sidents dans un Etat}{8}{section*.16}%
-\contentsline {subsection}{\numberline {1.3.2} Les dif\IeC {\'e}rentes op\IeC {\'e}rations \IeC {\`a} l'\IeC {\'e}tranger}{8}{subsection.1.3.2}%
-\contentsline {subsubsection}{Les transferts \IeC {\'e}mis}{8}{section*.17}%
-\contentsline {subsubsection}{Les transferts re\IeC {\c c}us}{9}{section*.18}%
-\contentsline {subsubsection}{Les op\IeC {\'e}rations de cr\IeC {\'e}dit documentaire}{9}{section*.19}%
-\contentsline {subsubsection}{Les op\IeC {\'e}rations de remise documentaire}{10}{section*.21}%
-\contentsline {subsubsection}{Les remises de ch\IeC {\`e}ques hors UEMOA}{10}{section*.23}%
-\contentsline {chapter}{\numberline {2}Apprentissage automatique et aide \IeC {\`a} la d\IeC {\'e}cision}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Vocabulaire du machine learning}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Etiquettes}{12}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Caract\IeC {\'e}ristiques}{13}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Exemples}{13}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Mod\IeC {\`e}les}{13}{subsection.2.1.4}%
-\contentsline {subsubsection}{L'apprentissage}{13}{section*.26}%
-\contentsline {subsubsection}{L'inf\IeC {\'e}rence}{13}{section*.27}%
-\contentsline {section}{\numberline {2.2}Les objectifs et m\IeC {\'e}thodes du Machine learning}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Les objectifs du machine learning}{13}{subsection.2.2.1}%
-\contentsline {subsubsection}{Une classification}{14}{section*.28}%
-\contentsline {subsubsection}{Une regression}{14}{section*.29}%
-\contentsline {subsubsection}{Le clustering}{14}{section*.30}%
-\contentsline {subsection}{\numberline {2.2.2}Les m\IeC {\'e}thodes d'aprentissage}{14}{subsection.2.2.2}%
-\contentsline {subsubsection}{L'apprentissage supervis\IeC {\'e}}{14}{section*.32}%
-\contentsline {subsubsection}{L'apprentissage non-supervis\IeC {\'e}}{15}{section*.33}%
-\contentsline {section}{\numberline {2.3}Les diff\IeC {\'e}rents type de classifieurs}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}M\IeC {\'e}thode des K plus proche voisins (KNN)}{16}{subsection.2.3.1}%
-\contentsline {subsubsection}{Pr\IeC {\'e}diction avec K-NN}{16}{section*.34}%
-\contentsline {subsubsection}{Similarit\IeC {\'e} dans l'algorithme K-NN}{16}{section*.35}%
-\contentsline {subsubsection}{Choix de la valeur K}{16}{section*.37}%
-\contentsline {subsubsection}{Avantages}{17}{section*.38}%
-\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{17}{section*.39}%
-\contentsline {subsection}{\numberline {2.3.2}Les r\IeC {\'e}seaux de neurones}{18}{subsection.2.3.2}%
-\contentsline {subsubsection}{Les diff\IeC {\'e}rents cas d'usage}{18}{section*.40}%
-\contentsline {subsubsection}{Avantages}{18}{section*.41}%
-\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{18}{section*.42}%
-\contentsline {subsection}{\numberline {2.3.3}Support Vector Machine (SVM)}{19}{subsection.2.3.3}%
-\contentsline {subsubsection}{Avantage}{19}{section*.44}%
-\contentsline {subsubsection}{Inconv\IeC {\'e}nient}{20}{section*.45}%
-\contentsline {subsection}{\numberline {2.3.4}Les arbres de d\IeC {\'e}cisions}{20}{subsection.2.3.4}%
-\contentsline {subsubsection}{Avantages}{20}{section*.46}%
-\contentsline {subsubsection}{Inconv\IeC {\'e}nient}{21}{section*.47}%
-\contentsline {section}{\numberline {2.4}Comparaison des algorithmes de classification}{21}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Les arbres de d\IeC {\'e}cisions}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Structure d'un arbre de d\IeC {\'e}cision}{22}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Optimisation des noeuds}{23}{subsection.2.5.2}%
-\contentsline {subsubsection}{Entropie de Shannon}{24}{section*.50}%
-\contentsline {subsubsection}{Indice de Gini}{24}{section*.51}%
-\contentsline {subsection}{\numberline {2.5.3}Algorithmes d\IeC {\textquoteright }induction d\IeC {\textquoteright }arbres de d\IeC {\'e}cision}{25}{subsection.2.5.3}%
-\contentsline {subsubsection}{CART}{25}{section*.52}%
-\contentsline {subsubsection}{ID3}{25}{section*.53}%
-\contentsline {subsubsection}{C4.5}{26}{section*.54}%
-\contentsline {section}{\numberline {2.6}Les for\IeC {\^e}ts al\IeC {\'e}atoires}{27}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Fonctionnement des for\IeC {\^e}ts al\IeC {\'e}atoires}{27}{subsection.2.6.1}%
-\contentsline {subsubsection}{Echantillonage al\IeC {\'e}atoire des donn\IeC {\'e}es d'entrainement}{27}{section*.57}%
-\contentsline {subsubsection}{Fractionnement des noeuds}{28}{section*.58}%
-\contentsline {subsection}{\numberline {2.6.2}Les hyperparam\IeC {\`e}tres dans les for\IeC {\^e}ts al\IeC {\'e}atoires}{28}{subsection.2.6.2}%
-\contentsline {subsubsection}{Augmenter le pouvoir pr\IeC {\'e}dictif du mod\IeC {\`e}le}{28}{section*.59}%
-\contentsline {subsubsection}{Augmenter la vitesse d'ex\IeC {\'e}cution du mod\IeC {\`e}le}{29}{section*.60}%
-\contentsline {subsection}{\numberline {2.6.3}Les avantages et les inconv\IeC {\'e}nients du mod\IeC {\`e}le des for\IeC {\^e}ts al\IeC {\'e}atoire}{29}{subsection.2.6.3}%
-\contentsline {subsubsection}{Avantages}{29}{section*.61}%
-\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{29}{section*.62}%
-\contentsline {chapter}{\numberline {3}La conformit\IeC {\'e} dans le secteur bancaire}{31}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Etude de l'existant}{31}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Analyse des dossiers de transfert \IeC {\`a} la SGBF}{31}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Plateformes existantes dans le milieu bancaire}{32}{subsection.3.1.2}%
-\contentsline {subsubsection}{ComplianceBond}{32}{section*.65}%
-\contentsline {subsubsection}{TraProtect}{32}{section*.66}%
-\contentsline {subsubsection}{ kdprevent}{32}{section*.67}%
-\contentsline {section}{\numberline {3.2}La conformit\IeC {\'e} ou compliance}{33}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}D\IeC {\'e}finition}{33}{subsection.3.2.1}%
-\contentsline {subsubsection}{S\IeC {\'e}curit\IeC {\'e} financi\IeC {\`e}re}{34}{section*.69}%
-\contentsline {subsubsection}{La protection Client\IeC {\`e}le}{34}{section*.70}%
-\contentsline {subsubsection}{Le contr\IeC {\^o}le permanent}{34}{section*.71}%
-\contentsline {subsubsection}{La d\IeC {\'e}ontologie}{34}{section*.72}%
-\contentsline {subsection}{\numberline {3.2.2}R\IeC {\^o}le de la conformit\IeC {\'e} dans le domaine bancaire}{34}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Pr\IeC {\'e}sentation du cadre r\IeC {\`e}glementaire}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1} La r\IeC {\`e}glementation de change}{35}{subsection.3.3.1}%
-\contentsline {subsubsection}{La r\IeC {\`e}glementation de change sur les op\IeC {\'e}rations d'exportation}{36}{section*.73}%
-\contentsline {subsubsection}{La r\IeC {\`e}glementations de change sur les op\IeC {\'e}rations d'importation}{36}{section*.74}%
-\contentsline {subsubsection}{La r\IeC {\`e}glementation de change sur les op\IeC {\'e}rations d'investissement et d'emprunt}{36}{section*.75}%
-\contentsline {subsection}{\numberline {3.3.2}Les composantes d'un programme AML}{36}{subsection.3.3.2}%
-\contentsline {subsubsection}{La lutte contre le blanchiment de capitaux}{36}{section*.76}%
-\contentsline {subsubsection}{La lutte contre le financement du terrorisme}{37}{section*.77}%
-\contentsline {subsubsection}{Le respect des embargos commerciaux et financiers}{37}{section*.78}%
-\contentsline {subsubsection}{La surveillance des op\IeC {\'e}rations de march\IeC {\'e}}{37}{section*.79}%
-\contentsline {section}{\numberline {3.4}Machine Learning et mise en oeuvre d'un programme de conformit\IeC {\'e}}{38}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Le Machine Learning pour la simplification des proc\IeC {\'e}dures KYC}{38}{subsection.3.4.1}%
-\contentsline {subsubsection}{L'identification et le contr\IeC {\^o}le des informations d'identification des clients}{38}{section*.80}%
-\contentsline {subsubsection}{Le contr\IeC {\^o}le des clients par rapport aux listes de sanctions}{39}{section*.81}%
-\contentsline {subsubsection}{Qualification du risque de blanchiment}{39}{section*.82}%
-\contentsline {subsubsection}{Consignation des pi\IeC {\`e}ces d'identification des clients}{39}{section*.83}%
-\contentsline {subsection}{\numberline {3.4.2}Le Machine Learning, un outil essentiel \IeC {\`a} la d\IeC {\'e}tection des transactions suspectes}{39}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}Approche et Impl\IeC {\'e}mentation}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Approche}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}R\IeC {\'e}alisation}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Le jeu de donn\IeC {\'e}es}{42}{subsection.4.2.1}%
-\contentsline {subsubsection}{Acquisition des donn\IeC {\'e}es}{42}{section*.86}%
-\contentsline {subsection}{\numberline {4.2.2}Pr\IeC {\'e}traitrement des donn\IeC {\'e}es}{44}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Validation crois\IeC {\'e}e et stratification des donn\IeC {\'e}es}{44}{subsection.4.2.3}%
-\contentsline {subsubsection}{Validation crois\IeC {\'e}e}{44}{section*.89}%
-\contentsline {subsubsection}{Stratification}{47}{section*.90}%
-\contentsline {subsection}{\numberline {4.2.4}Les outils}{47}{subsection.4.2.4}%
-\contentsline {subsubsection}{Le langage python}{47}{section*.91}%
-\contentsline {subsubsection}{Le langage Javascript}{47}{section*.93}%
-\contentsline {subsubsection}{Flask}{48}{section*.95}%
-\contentsline {subsubsection}{Jupyter Notebook}{48}{section*.97}%
-\contentsline {subsubsection}{Visual studio code}{48}{section*.99}%
-\contentsline {section}{\numberline {4.3}R\IeC {\'e}sultats}{48}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}R\IeC {\'e}sultats du mod\IeC {\`e}le}{48}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Impl\IeC {\'e}mentation de la plateforme web}{50}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Interpr\IeC {\'e}tation des r\IeC {\'e}sultats du mod\IeC {\`e}le de machine learning}{52}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Limites et difficult\IeC {\'e}es}{52}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Analyse des r\IeC {\'e}sultats}{53}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Perspectives}{54}{subsection.4.4.3}%
-\contentsline {subsubsection}{Concernant la diversit\IeC {\'e} de nos donn\IeC {\'e}es}{54}{section*.106}%
-\contentsline {subsubsection}{Concernant le score de pr\IeC {\'e}diction juste obtenu}{54}{section*.107}%
-\contentsline {chapter}{Conclusion g\IeC {\'e}n\IeC {\'e}rale}{56}{chapter*.109}%
-\contentsline {chapter}{\numberline {A}Annexe : Dossiers de transferts}{57}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Pour un r\IeC {\`e}glement de facture d'achat}{57}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Pour le remboursement d'un emprunt}{57}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Pour une prestation de service}{58}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Pour des frais de scolarit\IeC {\'e} ou un soutien familial}{58}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Pour le virement des salaires des personnes expatri\IeC {\'e}s}{58}{section.A.5}%
-\contentsline {chapter}{\numberline {B}Analyse et Conception de la plateforme Web}{59}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Analyse des besoins}{59}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Conception}{60}{section.B.2}%
+\contentsline {section}{\numberline {1.3}Traitement des donn\IeC {\'e}es et formats de fichiers}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Pix4D}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}QGIS}{9}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2}Apprentissage automatique et aide \IeC {\`a} la d\IeC {\'e}cision}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Vocabulaire du machine learning}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Etiquettes}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Caract\IeC {\'e}ristiques}{12}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Exemples}{12}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Mod\IeC {\`e}les}{12}{subsection.2.1.4}%
+\contentsline {subsubsection}{L'apprentissage}{12}{section*.22}%
+\contentsline {subsubsection}{L'inf\IeC {\'e}rence}{12}{section*.23}%
+\contentsline {section}{\numberline {2.2}Les objectifs et m\IeC {\'e}thodes du Machine learning}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Les objectifs du machine learning}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{Une classification}{13}{section*.24}%
+\contentsline {subsubsection}{Une regression}{13}{section*.25}%
+\contentsline {subsubsection}{Le clustering}{13}{section*.26}%
+\contentsline {subsection}{\numberline {2.2.2}Les m\IeC {\'e}thodes d'aprentissage}{13}{subsection.2.2.2}%
+\contentsline {subsubsection}{L'apprentissage supervis\IeC {\'e}}{13}{section*.28}%
+\contentsline {subsubsection}{L'apprentissage non-supervis\IeC {\'e}}{14}{section*.29}%
+\contentsline {section}{\numberline {2.3}Les diff\IeC {\'e}rents type de classifieurs}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}M\IeC {\'e}thode des K plus proche voisins (KNN)}{15}{subsection.2.3.1}%
+\contentsline {subsubsection}{Pr\IeC {\'e}diction avec K-NN}{15}{section*.30}%
+\contentsline {subsubsection}{Similarit\IeC {\'e} dans l'algorithme K-NN}{15}{section*.31}%
+\contentsline {subsubsection}{Choix de la valeur K}{15}{section*.33}%
+\contentsline {subsubsection}{Avantages}{16}{section*.34}%
+\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{16}{section*.35}%
+\contentsline {subsection}{\numberline {2.3.2}Les r\IeC {\'e}seaux de neurones}{17}{subsection.2.3.2}%
+\contentsline {subsubsection}{Les diff\IeC {\'e}rents cas d'usage}{17}{section*.36}%
+\contentsline {subsubsection}{Avantages}{17}{section*.37}%
+\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{17}{section*.38}%
+\contentsline {subsection}{\numberline {2.3.3}Support Vector Machine (SVM)}{18}{subsection.2.3.3}%
+\contentsline {subsubsection}{Avantage}{18}{section*.40}%
+\contentsline {subsubsection}{Inconv\IeC {\'e}nient}{19}{section*.41}%
+\contentsline {subsection}{\numberline {2.3.4}Les arbres de d\IeC {\'e}cisions}{19}{subsection.2.3.4}%
+\contentsline {subsubsection}{Avantages}{19}{section*.42}%
+\contentsline {subsubsection}{Inconv\IeC {\'e}nient}{20}{section*.43}%
+\contentsline {section}{\numberline {2.4}Comparaison des algorithmes de classification}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Les arbres de d\IeC {\'e}cisions}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Structure d'un arbre de d\IeC {\'e}cision}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Optimisation des noeuds}{22}{subsection.2.5.2}%
+\contentsline {subsubsection}{Entropie de Shannon}{23}{section*.46}%
+\contentsline {subsubsection}{Indice de Gini}{23}{section*.47}%
+\contentsline {subsection}{\numberline {2.5.3}Algorithmes d\IeC {\textquoteright }induction d\IeC {\textquoteright }arbres de d\IeC {\'e}cision}{24}{subsection.2.5.3}%
+\contentsline {subsubsection}{CART}{24}{section*.48}%
+\contentsline {subsubsection}{ID3}{24}{section*.49}%
+\contentsline {subsubsection}{C4.5}{25}{section*.50}%
+\contentsline {section}{\numberline {2.6}Les for\IeC {\^e}ts al\IeC {\'e}atoires}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fonctionnement des for\IeC {\^e}ts al\IeC {\'e}atoires}{26}{subsection.2.6.1}%
+\contentsline {subsubsection}{Echantillonage al\IeC {\'e}atoire des donn\IeC {\'e}es d'entrainement}{26}{section*.53}%
+\contentsline {subsubsection}{Fractionnement des noeuds}{27}{section*.54}%
+\contentsline {subsection}{\numberline {2.6.2}Les hyperparam\IeC {\`e}tres dans les for\IeC {\^e}ts al\IeC {\'e}atoires}{27}{subsection.2.6.2}%
+\contentsline {subsubsection}{Augmenter le pouvoir pr\IeC {\'e}dictif du mod\IeC {\`e}le}{27}{section*.55}%
+\contentsline {subsubsection}{Augmenter la vitesse d'ex\IeC {\'e}cution du mod\IeC {\`e}le}{28}{section*.56}%
+\contentsline {subsection}{\numberline {2.6.3}Les avantages et les inconv\IeC {\'e}nients du mod\IeC {\`e}le des for\IeC {\^e}ts al\IeC {\'e}atoire}{28}{subsection.2.6.3}%
+\contentsline {subsubsection}{Avantages}{28}{section*.57}%
+\contentsline {subsubsection}{Inconv\IeC {\'e}nients}{28}{section*.58}%
+\contentsline {chapter}{\numberline {3}La conformit\IeC {\'e} dans le secteur bancaire}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Etude de l'existant}{30}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Analyse des dossiers de transfert \IeC {\`a} la SGBF}{30}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Plateformes existantes dans le milieu bancaire}{31}{subsection.3.1.2}%
+\contentsline {subsubsection}{ComplianceBond}{31}{section*.61}%
+\contentsline {subsubsection}{TraProtect}{31}{section*.62}%
+\contentsline {subsubsection}{ kdprevent}{31}{section*.63}%
+\contentsline {section}{\numberline {3.2}La conformit\IeC {\'e} ou compliance}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}D\IeC {\'e}finition}{32}{subsection.3.2.1}%
+\contentsline {subsubsection}{S\IeC {\'e}curit\IeC {\'e} financi\IeC {\`e}re}{33}{section*.65}%
+\contentsline {subsubsection}{La protection Client\IeC {\`e}le}{33}{section*.66}%
+\contentsline {subsubsection}{Le contr\IeC {\^o}le permanent}{33}{section*.67}%
+\contentsline {subsubsection}{La d\IeC {\'e}ontologie}{33}{section*.68}%
+\contentsline {subsection}{\numberline {3.2.2}R\IeC {\^o}le de la conformit\IeC {\'e} dans le domaine bancaire}{33}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Pr\IeC {\'e}sentation du cadre r\IeC {\`e}glementaire}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1} La r\IeC {\`e}glementation de change}{34}{subsection.3.3.1}%
+\contentsline {subsubsection}{La r\IeC {\`e}glementation de change sur les op\IeC {\'e}rations d'exportation}{35}{section*.69}%
+\contentsline {subsubsection}{La r\IeC {\`e}glementations de change sur les op\IeC {\'e}rations d'importation}{35}{section*.70}%
+\contentsline {subsubsection}{La r\IeC {\`e}glementation de change sur les op\IeC {\'e}rations d'investissement et d'emprunt}{35}{section*.71}%
+\contentsline {subsection}{\numberline {3.3.2}Les composantes d'un programme AML}{35}{subsection.3.3.2}%
+\contentsline {subsubsection}{La lutte contre le blanchiment de capitaux}{35}{section*.72}%
+\contentsline {subsubsection}{La lutte contre le financement du terrorisme}{36}{section*.73}%
+\contentsline {subsubsection}{Le respect des embargos commerciaux et financiers}{36}{section*.74}%
+\contentsline {subsubsection}{La surveillance des op\IeC {\'e}rations de march\IeC {\'e}}{36}{section*.75}%
+\contentsline {section}{\numberline {3.4}Machine Learning et mise en oeuvre d'un programme de conformit\IeC {\'e}}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Le Machine Learning pour la simplification des proc\IeC {\'e}dures KYC}{37}{subsection.3.4.1}%
+\contentsline {subsubsection}{L'identification et le contr\IeC {\^o}le des informations d'identification des clients}{37}{section*.76}%
+\contentsline {subsubsection}{Le contr\IeC {\^o}le des clients par rapport aux listes de sanctions}{38}{section*.77}%
+\contentsline {subsubsection}{Qualification du risque de blanchiment}{38}{section*.78}%
+\contentsline {subsubsection}{Consignation des pi\IeC {\`e}ces d'identification des clients}{38}{section*.79}%
+\contentsline {subsection}{\numberline {3.4.2}Le Machine Learning, un outil essentiel \IeC {\`a} la d\IeC {\'e}tection des transactions suspectes}{38}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Approche et Impl\IeC {\'e}mentation}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Approche}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}R\IeC {\'e}alisation}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Le jeu de donn\IeC {\'e}es}{41}{subsection.4.2.1}%
+\contentsline {subsubsection}{Acquisition des donn\IeC {\'e}es}{41}{section*.82}%
+\contentsline {subsection}{\numberline {4.2.2}Pr\IeC {\'e}traitrement des donn\IeC {\'e}es}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Validation crois\IeC {\'e}e et stratification des donn\IeC {\'e}es}{43}{subsection.4.2.3}%
+\contentsline {subsubsection}{Validation crois\IeC {\'e}e}{43}{section*.85}%
+\contentsline {subsubsection}{Stratification}{46}{section*.86}%
+\contentsline {subsection}{\numberline {4.2.4}Les outils}{46}{subsection.4.2.4}%
+\contentsline {subsubsection}{Le langage python}{46}{section*.87}%
+\contentsline {subsubsection}{Le langage Javascript}{46}{section*.89}%
+\contentsline {subsubsection}{Flask}{47}{section*.91}%
+\contentsline {subsubsection}{Jupyter Notebook}{47}{section*.93}%
+\contentsline {subsubsection}{Visual studio code}{47}{section*.95}%
+\contentsline {section}{\numberline {4.3}R\IeC {\'e}sultats}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}R\IeC {\'e}sultats du mod\IeC {\`e}le}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Impl\IeC {\'e}mentation de la plateforme web}{49}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Interpr\IeC {\'e}tation des r\IeC {\'e}sultats du mod\IeC {\`e}le de machine learning}{51}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Limites et difficult\IeC {\'e}es}{51}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Analyse des r\IeC {\'e}sultats}{52}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Perspectives}{53}{subsection.4.4.3}%
+\contentsline {subsubsection}{Concernant la diversit\IeC {\'e} de nos donn\IeC {\'e}es}{53}{section*.102}%
+\contentsline {subsubsection}{Concernant le score de pr\IeC {\'e}diction juste obtenu}{53}{section*.103}%
+\contentsline {chapter}{Conclusion g\IeC {\'e}n\IeC {\'e}rale}{55}{chapter*.105}%
+\contentsline {chapter}{\numberline {A}Annexe : Dossiers de transferts}{56}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Pour un r\IeC {\`e}glement de facture d'achat}{56}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Pour le remboursement d'un emprunt}{56}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Pour une prestation de service}{57}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Pour des frais de scolarit\IeC {\'e} ou un soutien familial}{57}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Pour le virement des salaires des personnes expatri\IeC {\'e}s}{57}{section.A.5}%
+\contentsline {chapter}{\numberline {B}Analyse et Conception de la plateforme Web}{58}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Analyse des besoins}{58}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Conception}{59}{section.B.2}%

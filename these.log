@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.4)  2 AUG 2020 02:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.4)  1 SEP 2020 05:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1732,87 +1732,106 @@ Package pdftex.def Info: images/Technidrone.jpg  used on input line 130.
 [5 <./images/OrganigrammeLiris.png>] (./sources/chapter1_toto/concepts.tex
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 8.
+Package pdftex.def Info: images/esi.jpeg  used on input line 6.
 (pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
 File: images/liris.png Graphic file (type png)
 <use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 8.
+Package pdftex.def Info: images/liris.png  used on input line 6.
 (pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
 File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 8.
+Package pdftex.def Info: images/Technidrone.jpg  used on input line 6.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
 
 [6]
-Overfull \hbox (8.85193pt too wide) in paragraph at lines 32--36
-[]\T1/cmr/bx/n/12 L'autorisation spé-ciale d'im-por-ta-tion ou d'ex-por-ta-tion
- : \T1/cmr/m/n/12 Ces do-cu-ments concernent
+<images/orthomosaique.png, id=154, 293.59688pt x 366.61969pt>
+File: images/orthomosaique.png Graphic file (type png)
+<use images/orthomosaique.png>
+Package pdftex.def Info: images/orthomosaique.png  used on input line 10.
+(pdftex.def)             Requested size: 227.62033pt x 227.62631pt.
+
+Overfull \hbox (18.20499pt too wide) in paragraph at lines 10--11
+ [][] 
  []
 
-File: images/esi.jpeg Graphic file (type jpg)
-<use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 56.
-(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
-File: images/liris.png Graphic file (type png)
-<use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 56.
-(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
-File: images/Technidrone.jpg Graphic file (type jpg)
-<use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 56.
-(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[7]
-File: images/esi.jpeg Graphic file (type jpg)
-<use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 106.
-(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
-File: images/liris.png Graphic file (type png)
-<use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 106.
-(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
-File: images/Technidrone.jpg Graphic file (type jpg)
-<use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 106.
-(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [8]
-<images/credit_doc.png, id=171, 896.34875pt x 554.07pt>
-File: images/credit_doc.png Graphic file (type png)
-<use images/credit_doc.png>
-Package pdftex.def Info: images/credit_doc.png  used on input line 122.
-(pdftex.def)             Requested size: 341.43306pt x 211.04759pt.
-File: images/esi.jpeg Graphic file (type jpg)
-<use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 136.
-(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
-File: images/liris.png Graphic file (type png)
-<use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 136.
-(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
-File: images/Technidrone.jpg Graphic file (type jpg)
-<use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 136.
-(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [9 <./images/credit_doc.png>]
-<images/remise_doc.png, id=181, 973.6375pt x 657.45625pt>
-File: images/remise_doc.png Graphic file (type png)
-<use images/remise_doc.png>
-Package pdftex.def Info: images/remise_doc.png  used on input line 143.
-(pdftex.def)             Requested size: 341.43306pt x 230.55453pt.
-)) (./sources/chapter2_ml/main.tex
-File: images/esi.jpeg Graphic file (type jpg)
-<use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 1.
-(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
-File: images/liris.png Graphic file (type png)
-<use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 1.
-(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
-File: images/Technidrone.jpg Graphic file (type jpg)
-<use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
-(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
+<images/carteCarriere.jpg, id=155, 520.19344pt x 365.11406pt>
+File: images/carteCarriere.jpg Graphic file (type jpg)
+<use images/carteCarriere.jpg>
+Package pdftex.def Info: images/carteCarriere.jpg  used on input line 15.
+(pdftex.def)             Requested size: 227.62375pt x 227.62189pt.
 
-[10 <./images/remise_doc.png>]
+Overfull \hbox (18.2084pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+<images/processusPix4D.jpg, id=156, 527.72156pt x 192.72pt>
+File: images/processusPix4D.jpg Graphic file (type jpg)
+<use images/processusPix4D.jpg>
+Package pdftex.def Info: images/processusPix4D.jpg  used on input line 28.
+(pdftex.def)             Requested size: 341.43306pt x 124.6872pt.
+
+LaTeX Warning: Reference `ProcesPix4D' on page 7 undefined on input line 36.
+
+File: images/esi.jpeg Graphic file (type jpg)
+<use images/esi.jpeg>
+Package pdftex.def Info: images/esi.jpeg  used on input line 37.
+(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
+File: images/liris.png Graphic file (type png)
+<use images/liris.png>
+Package pdftex.def Info: images/liris.png  used on input line 37.
+(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
+File: images/Technidrone.jpg Graphic file (type jpg)
+<use images/Technidrone.jpg>
+Package pdftex.def Info: images/Technidrone.jpg  used on input line 37.
+(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
+[7 <./images/orthomosaique.png> <./images/carteCarriere.jpg> <./images/processu
+sPix4D.jpg>]
+
+LaTeX Warning: Reference `positionImage' on page 8 undefined on input line 38.
+
+
+LaTeX Warning: Reference `annotationMallage' on page 8 undefined on input line 
+51.
+
+<images/detctionLigne.jpg, id=168, 338.6835pt x 191.187pt>
+File: images/detctionLigne.jpg Graphic file (type jpg)
+<use images/detctionLigne.jpg>
+Package pdftex.def Info: images/detctionLigne.jpg  used on input line 56.
+(pdftex.def)             Requested size: 341.45781pt x 142.27257pt.
+<images/maillageSansTexture.jpg, id=169, 369.891pt x 208.5975pt>
+File: images/maillageSansTexture.jpg Graphic file (type jpg)
+<use images/maillageSansTexture.jpg>
+Package pdftex.def Info: images/maillageSansTexture.jpg  used on input line 63.
+
+(pdftex.def)             Requested size: 341.44394pt x 142.26456pt.
+<images/positionImagePix4D.jpg, id=170, 299.592pt x 168.849pt>
+File: images/positionImagePix4D.jpg Graphic file (type jpg)
+<use images/positionImagePix4D.jpg>
+Package pdftex.def Info: images/positionImagePix4D.jpg  used on input line 70.
+(pdftex.def)             Requested size: 341.43306pt x 192.44861pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/QGIS.jpg, id=171, 415.5525pt x 234.549pt>
+File: images/QGIS.jpg Graphic file (type jpg)
+<use images/QGIS.jpg>
+Package pdftex.def Info: images/QGIS.jpg  used on input line 86.
+(pdftex.def)             Requested size: 341.43306pt x 192.72151pt.
+)
+File: images/esi.jpeg Graphic file (type jpg)
+<use images/esi.jpeg>
+Package pdftex.def Info: images/esi.jpeg  used on input line 165.
+(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
+File: images/liris.png Graphic file (type png)
+<use images/liris.png>
+Package pdftex.def Info: images/liris.png  used on input line 165.
+(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
+File: images/Technidrone.jpg Graphic file (type jpg)
+<use images/Technidrone.jpg>
+Package pdftex.def Info: images/Technidrone.jpg  used on input line 165.
+(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
+ [8 <./images/detctionLigne.jpg> <./images/maillageSansTexture.jpg>])
+(./sources/chapter2_ml/main.tex
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 1.
@@ -1825,9 +1844,22 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [11]
+ [9 <./images/positionImagePix4D.jpg> <./images/QGIS.jpg>]
+File: images/esi.jpeg Graphic file (type jpg)
+<use images/esi.jpeg>
+Package pdftex.def Info: images/esi.jpeg  used on input line 1.
+(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
+File: images/liris.png Graphic file (type png)
+<use images/liris.png>
+Package pdftex.def Info: images/liris.png  used on input line 1.
+(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
+File: images/Technidrone.jpg Graphic file (type jpg)
+<use images/Technidrone.jpg>
+Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
+(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
+ [10]
 Chapitre 2.
-(./sources/chapter2_ml/voc.tex [12
+(./sources/chapter2_ml/voc.tex [11
 
 ]) (./sources/chapter2_ml/objectif.tex
 File: images/esi.jpeg Graphic file (type jpg)
@@ -1843,12 +1875,12 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 13.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
 
-[13]
+[12]
 
-LaTeX Warning: Reference `fig:clustering' on page 14 undefined on input line 37
+LaTeX Warning: Reference `fig:clustering' on page 13 undefined on input line 37
 .
 
-<images/clustering.png, id=216, 395.97937pt x 299.61937pt>
+<images/clustering.png, id=219, 395.97937pt x 299.61937pt>
 File: images/clustering.png Graphic file (type png)
 <use images/clustering.png>
 Package pdftex.def Info: images/clustering.png  used on input line 42.
@@ -1868,9 +1900,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 68.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[14]) (./sources/chapter2_ml/classifieurs.tex
+[13]) (./sources/chapter2_ml/classifieurs.tex
 
-LaTeX Warning: Citation `pradaig' on page 15 undefined on input line 12.
+LaTeX Warning: Citation `pradaig' on page 14 undefined on input line 12.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -1884,18 +1916,18 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 13.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[15 <./images/clustering.png>]
+[14 <./images/clustering.png>]
 
-LaTeX Warning: Citation `datascientist' on page 16 undefined on input line 24.
+LaTeX Warning: Citation `datascientist' on page 15 undefined on input line 24.
 
 
-LaTeX Warning: Reference `fig:knnfonctionnement' on page 16 undefined on input 
+LaTeX Warning: Reference `fig:knnfonctionnement' on page 15 undefined on input 
 line 28.
 
 
-LaTeX Warning: Citation `nagesh2019' on page 16 undefined on input line 33.
+LaTeX Warning: Citation `nagesh2019' on page 15 undefined on input line 33.
 
-<images/knn.png, id=235, 593.21625pt x 516.93124pt>
+<images/knn.png, id=237, 593.21625pt x 516.93124pt>
 File: images/knn.png Graphic file (type png)
 <use images/knn.png>
 Package pdftex.def Info: images/knn.png  used on input line 46.
@@ -1915,7 +1947,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 64.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[16]
+[15]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 82.
@@ -1928,13 +1960,13 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 82.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [17 <./images/knn.png (PNG copy)>]
+ [16 <./images/knn.png (PNG copy)>]
 
-LaTeX Warning: Citation `10.1145/130385.130401' on page 18 undefined on input l
+LaTeX Warning: Citation `10.1145/130385.130401' on page 17 undefined on input l
 ine 127.
 
 
-LaTeX Warning: Citation `Cortes1995' on page 18 undefined on input line 129.
+LaTeX Warning: Citation `Cortes1995' on page 17 undefined on input line 129.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -1948,21 +1980,21 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 132.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[18]
+[17]
 
-LaTeX Warning: Citation `840634' on page 19 undefined on input line 146.
-
-
-LaTeX Warning: Citation `HUANG20052513' on page 19 undefined on input line 147.
+LaTeX Warning: Citation `840634' on page 18 undefined on input line 146.
 
 
+LaTeX Warning: Citation `HUANG20052513' on page 18 undefined on input line 147.
 
-LaTeX Warning: Citation `788125' on page 19 undefined on input line 150.
 
 
-LaTeX Warning: Citation `6990940' on page 19 undefined on input line 150.
+LaTeX Warning: Citation `788125' on page 18 undefined on input line 150.
 
-<images/marge.png, id=259, 869.2475pt x 261.97874pt>
+
+LaTeX Warning: Citation `6990940' on page 18 undefined on input line 150.
+
+<images/marge.png, id=263, 869.2475pt x 261.97874pt>
 File: images/marge.png Graphic file (type png)
 <use images/marge.png>
 Package pdftex.def Info: images/marge.png  used on input line 156.
@@ -1979,7 +2011,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 168.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[19 <./images/marge.png>]
+[18 <./images/marge.png>]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 216.
@@ -1992,9 +2024,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 216.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [20]) (./sources/chapter2_ml/comparaison.tex
+ [19]) (./sources/chapter2_ml/comparaison.tex
 
-LaTeX Warning: Reference `tab:tab2' on page 21 undefined on input line 37.
+LaTeX Warning: Reference `tab:tab2' on page 20 undefined on input line 37.
 
 ) (./sources/chapter2_ml/arbrefinal.tex
 File: images/esi.jpeg Graphic file (type jpg)
@@ -2009,15 +2041,15 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 13.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [21]
+ [20]
 
-LaTeX Warning: Citation `criminisi2011' on page 22 undefined on input line 26.
+LaTeX Warning: Citation `criminisi2011' on page 21 undefined on input line 26.
 
 
-LaTeX Warning: Reference `fig:DecisionTree' on page 22 undefined on input line 
+LaTeX Warning: Reference `fig:DecisionTree' on page 21 undefined on input line 
 28.
 
-<images/decisionTree.png, id=283, 480.79625pt x 284.06125pt>
+<images/decisionTree.png, id=286, 480.79625pt x 284.06125pt>
 File: images/decisionTree.png Graphic file (type png)
 <use images/decisionTree.png>
 Package pdftex.def Info: images/decisionTree.png  used on input line 32.
@@ -2037,7 +2069,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 53.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[22]
+[21]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 76.
@@ -2050,9 +2082,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 76.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [23 <./images/decisionTree.png>]
+ [22 <./images/decisionTree.png>]
 
-LaTeX Warning: Citation `benjamin2005' on page 24 undefined on input line 83.
+LaTeX Warning: Citation `benjamin2005' on page 23 undefined on input line 83.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2066,13 +2098,13 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 125.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[24]
+[23]
 
-LaTeX Warning: Citation `quinlaninduction' on page 25 undefined on input line 1
+LaTeX Warning: Citation `quinlaninduction' on page 24 undefined on input line 1
 63.
 
 
-LaTeX Warning: Citation `quinlanc45' on page 25 undefined on input line 175.
+LaTeX Warning: Citation `quinlanc45' on page 24 undefined on input line 175.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2086,9 +2118,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 177.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[25]
+[24]
 
-LaTeX Warning: Reference `tab:tab1' on page 26 undefined on input line 215.
+LaTeX Warning: Reference `tab:tab1' on page 25 undefined on input line 215.
 
 
 Overfull \hbox (7.46796pt too wide) in paragraph at lines 233--237
@@ -2108,8 +2140,8 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 245.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[26]
-<images/foret.png, id=321, 647.41875pt x 463.7325pt>
+[25]
+<images/foret.png, id=325, 647.41875pt x 463.7325pt>
 File: images/foret.png Graphic file (type png)
 <use images/foret.png>
 Package pdftex.def Info: images/foret.png  used on input line 285.
@@ -2130,7 +2162,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 311.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[27]
+[26]
 Overfull \hbox (4.30194pt too wide) in paragraph at lines 322--326
 []\T1/cmr/m/n/12 Il s'agit du nombres d'arbres que l'al-go-rithme construit ava
 nt de prendre
@@ -2148,7 +2180,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 326.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[28 <./images/foret.png>]
+[27 <./images/foret.png>]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 373.
@@ -2161,7 +2193,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 373.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [29])) (./sources/chapter3_titi/main.tex
+ [28])) (./sources/chapter3_titi/main.tex
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 1.
@@ -2174,9 +2206,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [30]
+ [29]
 Chapitre 3.
-[31
+[30
 
 ]
 Overfull \hbox (0.98738pt too wide) in paragraph at lines 75--77
@@ -2196,11 +2228,11 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 77.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[32]
+[31]
 
-LaTeX Warning: Citation `arnaud2015' on page 33 undefined on input line 89.
+LaTeX Warning: Citation `arnaud2015' on page 32 undefined on input line 89.
 
-<images/domaineconformite.png, id=368, 762.85pt x 364.36125pt>
+<images/domaineconformite.png, id=372, 762.85pt x 364.36125pt>
 File: images/domaineconformite.png Graphic file (type png)
 <use images/domaineconformite.png>
 Package pdftex.def Info: images/domaineconformite.png  used on input line 93.
@@ -2217,7 +2249,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 116.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[33 <./images/domaineconformite.png>]
+[32 <./images/domaineconformite.png>]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 164.
@@ -2230,9 +2262,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 164.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [34]
+ [33]
 
-LaTeX Warning: Citation `reglementfin' on page 35 undefined on input line 196.
+LaTeX Warning: Citation `reglementfin' on page 34 undefined on input line 196.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2246,9 +2278,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 215.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[35]
+[34]
 
-LaTeX Warning: Citation `reglementfin' on page 36 undefined on input line 221.
+LaTeX Warning: Citation `reglementfin' on page 35 undefined on input line 221.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2262,9 +2294,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 261.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[36]
+[35]
 
-LaTeX Warning: Citation `reglementaml' on page 37 undefined on input line 269.
+LaTeX Warning: Citation `reglementaml' on page 36 undefined on input line 269.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2278,7 +2310,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 312.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[37] (./sources/chapter3_titi/aaa.tex
+[36] (./sources/chapter3_titi/aaa.tex
 Overfull \hbox (11.68718pt too wide) in paragraph at lines 1--1
 []\T1/cmr/bx/n/17.28 Machine Lear-ning et mise en oeuvre d'un pro-gramme
  []
@@ -2295,7 +2327,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 34.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[38])
+[37])
 Overfull \hbox (7.36655pt too wide) in paragraph at lines 69--324
 []\T1/cmr/m/n/12 Pour ré-soudre ces pro-blémes par-ti-cu-liè-re-ment chro-no-ph
 ages et coû-teux pour les banques,
@@ -2313,7 +2345,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 325.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[39]) (./sources/chapter4_impl/main.tex
+[38]) (./sources/chapter4_impl/main.tex
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 1.
@@ -2326,9 +2358,9 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [40]
+ [39]
 Chapitre 4.
-[41
+[40
 
 ]
 Overfull \hbox (8.24547pt too wide) in paragraph at lines 53--57
@@ -2348,7 +2380,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 83.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[42]
+[41]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 139.
@@ -2361,12 +2393,12 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 139.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [43] (./sources/chapter4_impl/data.tex
+ [42] (./sources/chapter4_impl/data.tex
 
-LaTeX Warning: Reference `tab:tab3' on page 44 undefined on input line 1.
+LaTeX Warning: Reference `tab:tab3' on page 43 undefined on input line 1.
 
 
-LaTeX Warning: Reference `tab:codage' on page 44 undefined on input line 62.
+LaTeX Warning: Reference `tab:codage' on page 43 undefined on input line 62.
 
 
 Underfull \hbox (badness 2913) in paragraph at lines 81--81
@@ -2374,6 +2406,19 @@ Underfull \hbox (badness 2913) in paragraph at lines 81--81
  []
 
 )
+File: images/esi.jpeg Graphic file (type jpg)
+<use images/esi.jpeg>
+Package pdftex.def Info: images/esi.jpeg  used on input line 175.
+(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
+File: images/liris.png Graphic file (type png)
+<use images/liris.png>
+Package pdftex.def Info: images/liris.png  used on input line 175.
+(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
+File: images/Technidrone.jpg Graphic file (type jpg)
+<use images/Technidrone.jpg>
+Package pdftex.def Info: images/Technidrone.jpg  used on input line 175.
+(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
+ [43]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 175.
@@ -2400,30 +2445,17 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 175.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
  [45]
-File: images/esi.jpeg Graphic file (type jpg)
-<use images/esi.jpeg>
-Package pdftex.def Info: images/esi.jpeg  used on input line 175.
-(pdftex.def)             Requested size: 28.45274pt x 25.56992pt.
-File: images/liris.png Graphic file (type png)
-<use images/liris.png>
-Package pdftex.def Info: images/liris.png  used on input line 175.
-(pdftex.def)             Requested size: 28.45274pt x 12.76222pt.
-File: images/Technidrone.jpg Graphic file (type jpg)
-<use images/Technidrone.jpg>
-Package pdftex.def Info: images/Technidrone.jpg  used on input line 175.
-(pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [46]
-<images/python.png, id=471, 131.49126pt x 131.49126pt>
+<images/python.png, id=475, 131.49126pt x 131.49126pt>
 File: images/python.png Graphic file (type png)
 <use images/python.png>
 Package pdftex.def Info: images/python.png  used on input line 185.
 (pdftex.def)             Requested size: 85.35826pt x 85.36195pt.
-<images/javascript.png, id=472, 225.84375pt x 225.84375pt>
+<images/javascript.png, id=476, 225.84375pt x 225.84375pt>
 File: images/javascript.png Graphic file (type png)
 <use images/javascript.png>
 Package pdftex.def Info: images/javascript.png  used on input line 211.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
-<images/flask.png, id=473, 220.825pt x 86.3225pt>
+<images/flask.png, id=477, 220.825pt x 86.3225pt>
 File: images/flask.png Graphic file (type png)
 <use images/flask.png>
 Package pdftex.def Info: images/flask.png  used on input line 222.
@@ -2440,13 +2472,13 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 225.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [47 <./images/python.png> <./images/javascript.png>]
-<images/jupyter.png, id=486, 44.165pt x 51.19125pt>
+ [46 <./images/python.png> <./images/javascript.png>]
+<images/jupyter.png, id=490, 44.165pt x 51.19125pt>
 File: images/jupyter.png Graphic file (type png)
 <use images/jupyter.png>
 Package pdftex.def Info: images/jupyter.png  used on input line 233.
 (pdftex.def)             Requested size: 85.35826pt x 98.93907pt.
-<images/all222.png, id=487, 244.915pt x 366.36874pt>
+<images/all222.png, id=491, 244.915pt x 366.36874pt>
 File: images/all222.png Graphic file (type png)
 <use images/all222.png>
 Package pdftex.def Info: images/all222.png  used on input line 271.
@@ -2467,12 +2499,12 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 283.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[48 <./images/flask.png> <./images/jupyter.png>]
+[47 <./images/flask.png> <./images/jupyter.png>]
 
-LaTeX Warning: Reference `fig:randomresult' on page 49 undefined on input line 
+LaTeX Warning: Reference `fig:randomresult' on page 48 undefined on input line 
 285.
 
-<images/randomresult.png, id=501, 554.07pt x 131.49126pt>
+<images/randomresult.png, id=505, 554.07pt x 131.49126pt>
 File: images/randomresult.png Graphic file (type png)
 <use images/randomresult.png>
 Package pdftex.def Info: images/randomresult.png  used on input line 288.
@@ -2498,23 +2530,23 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 306.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[49 <./images/all222.png>]
+[48 <./images/all222.png>]
 
-LaTeX Warning: Reference `fig:transaction' on page 50 undefined on input line 3
+LaTeX Warning: Reference `fig:transaction' on page 49 undefined on input line 3
 19.
 
 
-LaTeX Warning: Reference `fig:emetteur' on page 50 undefined on input line 320.
+LaTeX Warning: Reference `fig:emetteur' on page 49 undefined on input line 320.
 
 
 
-LaTeX Warning: Reference `fig:beneficiaire' on page 50 undefined on input line 
+LaTeX Warning: Reference `fig:beneficiaire' on page 49 undefined on input line 
 321.
 
 
-LaTeX Warning: Reference `fig:analyse' on page 50 undefined on input line 324.
+LaTeX Warning: Reference `fig:analyse' on page 49 undefined on input line 324.
 
-<images/transaction.png, id=508, 1371.1225pt x 770.88pt>
+<images/transaction.png, id=512, 1371.1225pt x 770.88pt>
 File: images/transaction.png Graphic file (type png)
 <use images/transaction.png>
 Package pdftex.def Info: images/transaction.png  used on input line 332.
@@ -2522,7 +2554,7 @@ Package pdftex.def Info: images/transaction.png  used on input line 332.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/emetteur.png, id=509, 1371.1225pt x 770.88pt>
+<images/emetteur.png, id=513, 1371.1225pt x 770.88pt>
 File: images/emetteur.png Graphic file (type png)
 <use images/emetteur.png>
 Package pdftex.def Info: images/emetteur.png  used on input line 340.
@@ -2530,7 +2562,7 @@ Package pdftex.def Info: images/emetteur.png  used on input line 340.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/beneficiaire.png, id=510, 1371.1225pt x 770.88pt>
+<images/beneficiaire.png, id=514, 1371.1225pt x 770.88pt>
 File: images/beneficiaire.png Graphic file (type png)
 <use images/beneficiaire.png>
 Package pdftex.def Info: images/beneficiaire.png  used on input line 347.
@@ -2538,7 +2570,7 @@ Package pdftex.def Info: images/beneficiaire.png  used on input line 347.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/analyse.png, id=511, 1371.1225pt x 770.88pt>
+<images/analyse.png, id=515, 1371.1225pt x 770.88pt>
 File: images/analyse.png Graphic file (type png)
 <use images/analyse.png>
 Package pdftex.def Info: images/analyse.png  used on input line 354.
@@ -2558,7 +2590,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 367.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[50 <./images/randomresult.png>]
+[49 <./images/randomresult.png>]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 367.
@@ -2571,7 +2603,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 367.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [51 <./images/transaction.png> <./images/emetteur.png>]
+ [50 <./images/transaction.png> <./images/emetteur.png>]
 Overfull \vbox (12.47023pt too high) has occurred while \output is active []
 
 File: images/esi.jpeg Graphic file (type jpg)
@@ -2587,7 +2619,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 367.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
 
-[52 <./images/beneficiaire.png> <./images/analyse.png>]
+[51 <./images/beneficiaire.png> <./images/analyse.png>]
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 425.
@@ -2600,12 +2632,12 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 425.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [53]
+ [52]
 
-LaTeX Warning: Citation `mediumPeter' on page 54 undefined on input line 427.
+LaTeX Warning: Citation `mediumPeter' on page 53 undefined on input line 427.
 
 
-LaTeX Warning: Citation `vandamme2006' on page 54 undefined on input line 432.
+LaTeX Warning: Citation `vandamme2006' on page 53 undefined on input line 432.
 
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
@@ -2619,7 +2651,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 467.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[54]) (./sources/conclu.tex
+[53]) (./sources/conclu.tex
 File: images/esi.jpeg Graphic file (type jpg)
 <use images/esi.jpeg>
 Package pdftex.def Info: images/esi.jpeg  used on input line 3.
@@ -2632,11 +2664,11 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 3.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [55]) (./sources/annexe1_ann/main.tex [56
+ [54]) (./sources/annexe1_ann/main.tex [55
 
 ]
 Annexe A.
-[57
+[56
 
 ]) (./sources/annexe2_conception/main.tex
 File: images/esi.jpeg Graphic file (type jpg)
@@ -2651,15 +2683,15 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 1.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [58]
+ [57]
 Annexe B.
 
-LaTeX Warning: Reference `tab:usecase' on page 59 undefined on input line 12.
+LaTeX Warning: Reference `tab:usecase' on page 58 undefined on input line 12.
 
 
-LaTeX Warning: Reference `fig:usecase' on page 59 undefined on input line 52.
+LaTeX Warning: Reference `fig:usecase' on page 58 undefined on input line 52.
 
-<images/usecase.PNG, id=576, 497.4585pt x 387.24675pt>
+<images/usecase.PNG, id=580, 497.4585pt x 387.24675pt>
 File: images/usecase.PNG Graphic file (type png)
 <use images/usecase.PNG>
 Package pdftex.def Info: images/usecase.PNG  used on input line 57.
@@ -2667,7 +2699,7 @@ Package pdftex.def Info: images/usecase.PNG  used on input line 57.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59
+[58
 
 ]
 File: images/esi.jpeg Graphic file (type jpg)
@@ -2682,11 +2714,11 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 70.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
- [60 <./images/usecase.PNG>]
+ [59 <./images/usecase.PNG>]
 
-LaTeX Warning: Reference `fig:classe' on page 61 undefined on input line 74.
+LaTeX Warning: Reference `fig:classe' on page 60 undefined on input line 74.
 
-<images/classe.PNG, id=591, 468.5505pt x 334.24875pt>
+<images/classe.PNG, id=595, 468.5505pt x 334.24875pt>
 File: images/classe.PNG Graphic file (type png)
 <use images/classe.PNG>
 Package pdftex.def Info: images/classe.PNG  used on input line 80.
@@ -2707,7 +2739,7 @@ File: images/Technidrone.jpg Graphic file (type jpg)
 <use images/Technidrone.jpg>
 Package pdftex.def Info: images/Technidrone.jpg  used on input line 5.
 (pdftex.def)             Requested size: 28.45274pt x 10.13353pt.
-[61 <./images/classe.PNG>])
+[60 <./images/classe.PNG>])
 
 Package caption Warning: Unused \captionsetup[subfloat] on input line 205.
 See the caption package documentation for explanation.
@@ -2725,7 +2757,7 @@ Package rerunfilecheck Warning: File `these.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `these.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  71B0567EC29EB233CF0BC5707F8D140F;6130.
+(rerunfilecheck)             After:  5BD04A3025D190EF41303904F11E768C;6100.
 
 LaTeX Warning: There were undefined references.
 
@@ -2735,11 +2767,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 33141 strings out of 480994
- 534772 string characters out of 5914632
+ 33175 strings out of 480994
+ 535709 string characters out of 5914632
  1148491 words of memory out of 5000000
- 47614 multiletter control sequences out of 15000+600000
- 551441 words of font info for 77 fonts, out of 8000000 for 9000
+ 47645 multiletter control sequences out of 15000+600000
+ 552204 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,16n,83p,3315b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -2755,18 +2787,18 @@ onts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfcc0800.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfxc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
-b>
-Output written on these.pdf (71 pages, 2070812 bytes).
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfxc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on these.pdf (70 pages, 4757873 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 260 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 PDF objects out of 1000 (max. 8388607)
+ 565 compressed objects within 6 object streams
+ 257 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
